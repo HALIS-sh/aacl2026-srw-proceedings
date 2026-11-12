@@ -1,0 +1,16 @@
+.venv/
+tools/aclpub2/build/
+tools/aclpub2/output/
+tools/aclpub2/examples/
+tools/aclpubcheck/
+reports/
+srw_dryrun/
+output_srw_dryrun/
+*.pax
+.DS_Store
+export/
+export_prev/
+email_authors_*.md
+reply_to_Trang_draft.md
+README_CN.md
+tools/

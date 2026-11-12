@@ -1,0 +1,97 @@
+# Program committee of the SRW. Reviewers (38) exported from the OpenReview Reviewers + Emergency_Reviewers groups on 2026-11-12.
+# If the SRW ran on OpenReview, tools/aclpub2/openreview/or2program_committee.py can export this file.
+- role: Student Research Workshop Chairs
+  entries:
+    - first_name: Shibo
+      last_name: Hong
+      institution: Fudan University, China
+    - first_name: Yuhang
+      last_name: Zhou
+      institution: Shanghai Innovation Institute, China
+    - first_name: Wenhe
+      last_name: Sun
+      institution: Fudan University, China
+- role: Faculty Advisor
+  entries:
+    - first_name: Yixin
+      last_name: Cao
+      institution: Fudan University, China
+- role: Reviewers
+  type: name_block
+  entries:
+    - first_name: Bo
+      last_name: Chen
+    - first_name: Haotian
+      last_name: Chen
+    - first_name: Dipankar
+      last_name: Das
+    - first_name: Brian
+      last_name: Davis
+    - first_name: Zhuoxuan
+      last_name: Jiang
+    - first_name: Marek
+      last_name: Kubis
+    - first_name: Florian
+      last_name: Kunneman
+    - first_name: David
+      last_name: Langlois
+    - first_name: Sheng
+      last_name: Li
+    - first_name: Haiyuan
+      last_name: Liang
+    - first_name: Siyuan
+      last_name: Liu
+    - first_name: Zhongyi
+      last_name: Liu
+    - first_name: Chunchuan
+      last_name: Lyu
+    - first_name: Fanchao
+      last_name: Meng
+    - first_name: Raha
+      last_name: Moraffah
+    - first_name: Hamada
+      last_name: Nayel
+    - first_name: Zhongyuan
+      last_name: Peng
+    - first_name: Leonardo
+      last_name: Ranaldi
+    - first_name: Yusuke
+      last_name: Sakai
+    - first_name: Sunil
+      last_name: Saumya
+    - first_name: Shuichiro
+      last_name: Shimizu
+    - first_name: Mohit
+      last_name: Singhal
+    - first_name: Konstantinos
+      last_name: Skianis
+    - first_name: Rui
+      last_name: Sousa-Silva
+    - first_name: Wenhe
+      last_name: Sun
+    - first_name: Zhe
+      last_name: Sun
+    - first_name: Antonela
+      last_name: Tommasel
+    - first_name: Dan
+      last_name: Vilenchik
+    - first_name: Ruibo
+      last_name: Wang
+    - first_name: Dittaya
+      last_name: Wanvarie
+    - first_name: Caijun
+      last_name: Xu
+    - first_name: Wei
+      last_name: Xue
+    - first_name: Fan
+      last_name: Yu
+    - first_name: Hongbang
+      last_name: Yuan
+    - first_name: Lei
+      last_name: Zhang
+    - first_name: Ruiqi
+      last_name: Zhang
+    - first_name: Shaolin
+      last_name: Zhu
+    - first_name: Ziyue
+      last_name: Zhu

@@ -1,0 +1,16 @@
+- role: Student Research Workshop Chairs
+  members:
+    - first_name: Shibo
+      last_name: Hong
+      institution: Fudan University, China
+    - first_name: Yuhang
+      last_name: Zhou
+      institution: Shanghai Innovation Institute, China
+    - first_name: Wenhe
+      last_name: Sun
+      institution: Fudan University, China
+- role: Faculty Advisor
+  members:
+    - first_name: Yixin
+      last_name: Cao
+      institution: Fudan University, China

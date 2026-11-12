@@ -1,0 +1,20 @@
+# AACL-IJCNLP 2026 Student Research Workshop — proceedings metadata for aclpub2
+# Items marked CONFIRM should be checked with the Publication Chairs (Trang Vu / Junxian He) before the final build.
+book_title: "Proceedings of the 15th International Joint Conference on Natural Language Processing and the 5th Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (Volume 4: Student Research Workshop)"   # exact title from the ISBN list in the conference handbook (p.64)
+event_name: "The 15th International Joint Conference on Natural Language Processing and the 5th Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics"
+cover_subtitle: "Proceedings of the Conference, Volume 4: Student Research Workshop"
+anthology_venue_id: AACL
+start_date: 2026-11-06
+end_date: 2026-11-10
+isbn: 979-8-89176-442-2        # from the conference handbook draft, "Volume 4: Student Research Workshop" — CONFIRM still valid
+location: "Hengqin, Zhuhai, China"
+editors:                        # order follows the official organizing-committee roster — CONFIRM preferred order
+  - first_name: Shibo
+    last_name: Hong
+  - first_name: Yuhang
+    last_name: Zhou
+  - first_name: Wenhe
+    last_name: Sun
+publisher: Association for Computational Linguistics
+volume_name: srw                # aclpub2 README: main-conference SRW volumes use the tag "srw"
+watermark_book_title: "Proceedings of the 15th International Joint Conference on Natural Language Processing and the 5th Conference\\\\of the Asia-Pacific Chapter of the Association for Computational Linguistics (Volume 4: Student Research Workshop)"

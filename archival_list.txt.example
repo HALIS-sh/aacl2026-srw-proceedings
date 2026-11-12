@@ -1,0 +1,6 @@
+# One accepted paper per line that should be INCLUDED in the proceedings (archival).
+# Format: <venue> <OpenReview number>, venue is "direct" or "arr". Lines starting with # are ignored.
+# Copy this file to archival_list.txt and edit.
+direct 1
+direct 8
+arr 3

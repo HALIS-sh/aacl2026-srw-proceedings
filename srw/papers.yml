@@ -1,0 +1,2395 @@
+- abstract: 'We define a task for AI meme idea generation, separate from template selection and image
+    synthesis.
+
+    We use three open-weight large language models (LLMs) to generate ideas in the style of Reddit memes
+    and classify them as AI- or human-generated.
+
+    Without fine-tuning, LLMs are poor or only fair discriminators, but supervised classifiers reach 93
+    accuracy and F1.
+
+    AI-generated ideas focused on workplace and technology tropes, making detection easy (for now). Our
+    code is available at https://github.com/shineef/Meme-Identification.'
+  attributes:
+    archival: archival
+    keywords:
+    - memes
+    - humor
+    - AI detection
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 1
+  authors:
+  - emails: '****@wpi.edu'
+    first_name: Xinyi
+    institution: Saint Louis University
+    last_name: Fang
+    name: Xinyi Fang
+    orcid: https://orcid.org/0009-0003-9702-0664
+    username: ~Xinyi_Fang1
+  - dblp_id: https://dblp.org/pid/97/4765-9.html
+    emails: '****@slu.edu'
+    first_name: Jin
+    institution: Saint Louis University
+    last_name: Zhao
+    name: Jin Zhao
+    orcid: https://orcid.org/0009-0009-5337-6603
+    semantic_scholar_id: https://www.semanticscholar.org/author/Jin-Zhao/2142154911
+    username: ~Jin_Zhao2
+  file: 1.pdf
+  id: 1
+  openreview_id: TgC5sgp5bJ
+  title: How Hard Is It to Identify AI-Generated Meme Ideas?
+  archival: true
+- abstract: The scientific peer-review process faces increasing human costs as submission volumes continue
+    to grow. Prior work has proposed interpretable argument-based metrics for evaluating review substantiation.
+    In particular, SubstanScore multiplies supported\_claims, the proportion of claims accompanied by
+    evidence, by review length. However, it remains unclear whether its predictive performance reflects
+    substantive review quality, claim-evidence structure, or review length. We investigate this question
+    from two perspectives. First, we introduce WarrantScore, a minimal extension of SubstanScore that
+    evaluates the implicit reasoning connecting claims and evidence. On two human-annotated datasets,
+    WarrantScore showed slightly higher correlations with human judgments, but the differences were not
+    statistically significant, providing no clear evidence that warrant evaluation adds predictive value
+    under the current formulation. Second, we isolate supported\_claims and examine whether it distinguishes
+    sufficient from deficient reviews while remaining stable when redundant text is added. The proportion
+    of claims accompanied by evidence was less affected by artificial review elongation than the full
+    length-weighted score and surface linguistic features, while retaining some ability to distinguish
+    sufficient from deficient reviews. Overall, these findings suggest that argument-structure features
+    may capture substantive aspects of review quality while remaining less sensitive to review length,
+    thereby providing a more length-robust basis for review evaluation.
+  attributes:
+    archival: archival
+    keywords:
+    - argument mining
+    - argument quality assessment
+    - argument schemes and reasoning
+    - argument generation
+    - applications
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 2
+  authors:
+  - emails: '****@naist.ac.jp'
+    first_name: Kiyotada
+    homepage: https://sites.google.com/view/kiyotadamori/home?authuser=0
+    institution: Osaka University
+    last_name: Mori
+    name: Kiyotada Mori
+    username: ~Kiyotada_Mori1
+  - dblp_id: https://dblp.org/pid/55/9282.html
+    emails: '****@stockmark.co.jp'
+    first_name: Shohei
+    google_scholar_id: https://scholar.google.com/citations?hl=ja&view_op=list_works&gmla=AOAOcb1xhrdV_dYlHI9tR5ZWaxJH8xlPyQ7f4ZPLR_soWdkNIIQAgnPlluFGUxvXWZpKz6-gtoWRaGTyRluD_v9gy5lU5NWQwfdvRP94Pm4qqb8&user=dOHKca8AAAAJ
+    homepage: https://shohei-ta-ds7.github.io/
+    institution: Stockmark
+    last_name: Tanaka
+    name: Shohei Tanaka
+    orcid: https://orcid.org/0000-0002-4244-1344
+    semantic_scholar_id: https://www.semanticscholar.org/author/Shohei-Tanaka/2111425352
+    username: ~Shohei_Tanaka2
+  - dblp_id: https://dblp.org/pid/239/4034
+    emails: '****@gmail.com'
+    first_name: Tosho
+    google_scholar_id: https://scholar.google.com/citations?user=Gy_DiksAAAAJ&hl=en
+    homepage: https://toshohirasawa.github.io/profile/
+    institution: LayerX
+    last_name: Hirasawa
+    name: Tosho Hirasawa
+    orcid: https://orcid.org/0000-0003-4657-8214
+    semantic_scholar_id: https://www.semanticscholar.org/author/Tosho-Hirasawa/89530758
+    username: ~Tosho_Hirasawa1
+  - dblp_id: https://dblp.org/pid/207/8504
+    emails: '****@gmail.com'
+    first_name: Tadashi
+    google_scholar_id: https://scholar.google.com/citations?user=4VJmx8QAAAAJ&hl=en
+    institution: Sun Intelligence
+    last_name: Kozuno
+    name: Tadashi Kozuno
+    orcid: https://orcid.org/0000-0002-8820-1362
+    semantic_scholar_id: https://www.semanticscholar.org/author/Tadashi-Kozuno/2237799344
+    username: ~Tadashi_Kozuno1
+  - dblp_id: https://dblp.org/pid/59/8883.html
+    emails: '****@osaka-u.ac.jp'
+    first_name: Koichiro
+    google_scholar_id: https://scholar.google.com/citations?user=zo90gZkAAAAJ&hl=ja
+    homepage: http://pomdp.net/
+    institution: Osaka University and RIKEN
+    last_name: Yoshino
+    name: Koichiro Yoshino
+    orcid: https://orcid.org/0000-0001-6579-361X
+    semantic_scholar_id: https://www.semanticscholar.org/author/Koichiro-Yoshino/2237192
+    username: ~Koichiro_Yoshino2
+  - dblp_id: https://dblp.org/pid/24/8843
+    emails: '****@yoshitakaushiku.net'
+    first_name: Yoshitaka
+    google_scholar_id: https://scholar.google.com/citations?user=kxUld9MAAAAJ&hl=ja
+    homepage: https://yoshitakaushiku.net/
+    institution: OMRON SINIC X, NexaScience and RIKEN
+    last_name: Ushiku
+    name: Yoshitaka Ushiku
+    orcid: https://orcid.org/0000-0002-9014-1389
+    semantic_scholar_id: https://www.semanticscholar.org/author/Y.-Ushiku/3250559
+    username: ~Yoshitaka_Ushiku3
+  file: 2.pdf
+  id: 2
+  openreview_id: RRdzqzT95q
+  title: Analyzing Warrant Evaluation and Review-Elongation Sensitivity in Argument-Based Substantiation
+    Metrics for Scientific Peer Review
+  archival: true
+- abstract: Interpretability is important for sentiment polarity classification of social media posts.
+    Predictions can hinge on a small set of cues, and explanations should remain stable under minor edits.
+    In Japanese, inflection changes word forms, and word boundaries can be unclear. These factors complicate
+    word-level alignment and evaluation. In this paper, we study interpretability evaluation for Japanese
+    sentiment polarity classification on WRIME. At the word level, we compare attention-based attribution,
+    Integrated Gradients, and LIME. We evaluate plausibility with Token-F1, ranking consistency with exact-match
+    and lemma-based variants of mean average precision (MAP), and faithfulness with Sufficiency and Comprehensiveness.
+    We train an aspect–opinion span extractor and use the predicted span sets to reweight token importance
+    scores. Lexicon fusion and set-based weighting improve Token-F1 over Raw across the nine model–explainer
+    combinations, with neighborhood weighting achieving the highest Token-F1 among the main settings.
+    Set-based weighting has lower Exact MAP than lexicon fusion for every model–explainer pair, and faithfulness
+    does not improve uniformly. Uniform-set is competitive, while the Oracle upper bound identifies span
+    extraction quality as a limiting factor. Lemma MAP consistently exceeds Exact MAP, indicating that
+    inflectional variation can lower scores under exact string matching. The implementation code is available
+    at https://github.com/UweWei/Interpretability-Japanese-Sentiment.
+  attributes:
+    archival: archival
+    keywords:
+    - interpretability evaluation
+    - sentiment polarity classification
+    - Japanese social media
+    - WRIME
+    - aspect-opinion span extraction
+    - attribution methods
+    - Integrated Gradients
+    - LIME
+    - plausibility
+    - faithfulness
+    - ranking consistency
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 4
+  authors:
+  - emails: '****@colorado.edu'
+    first_name: Yingchao
+    institution: University of Colorado at Boulder
+    last_name: Wei
+    name: Yingchao Wei
+    orcid: https://orcid.org/0009-0008-6775-3214
+    username: ~Yingchao_Wei1
+  - emails: '****@student.gs.chiba-u.jp'
+    first_name: Nadire
+    institution: Chiba University
+    last_name: Aximu
+    name: Nadire Aximu
+    orcid: https://orcid.org/0009-0007-2234-5586
+    username: ~Nadire_Aximu1
+  file: 4.pdf
+  id: 4
+  openreview_id: f66lLQMfUD
+  title: Interpretability Evaluation for Japanese Social Media Sentiment Polarity Classification Models
+  archival: true
+- abstract: "Discourse parsing based on Segmented Discourse Representation Theory (SDRT) is crucial for\
+    \ capturing the structural dynamics of dialogues.\nHowever, most prior research focuses on English,\
+    \ and its effectiveness for Japanese remains unclear owing to the lack of Japanese SDRT corpora.\n\
+    To address this issue, we construct Japanese SDRT corpora by translating existing English SDRT corpora\
+    \ using an LLM.\nThrough a comparative evaluation of prompt-based and fine-tuned LLMs, we show that\
+    \ the models achieve comparable performance between English and Japanese, suggesting the cross-lingual\
+    \ applicability of SDRT-based discourse parsing.\nIn order to investigate why the English and Japanese\
+    \ parsers achieve similar performance, we conduct ablation analyses on discourse markers and contextual\
+    \ inputs. \nOur results reveal that most of the Japanese discourse markers we examined have little\
+    \ impact, and the models' predictions depend heavily on contextual discourse relations rather than\
+    \ on the content of the context clauses.\nThis structural reliance might explain the comparable performance\
+    \ despite the substantial typological differences between English and Japanese."
+  attributes:
+    archival: archival
+    keywords:
+    - Discourse Structure Analysis
+    - Segmented Discourse Representation Theory (SDRT)
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 5
+  authors:
+  - emails: '****@g.ecc.u-tokyo.ac.jp'
+    first_name: Satomu
+    homepage: https://crystal-orchid-txh5wt.mystrikingly.com
+    institution: The University of Tokyo, Tokyo Institute of Technology
+    last_name: Tomisaki
+    name: Satomu Tomisaki
+    username: ~Satomu_Tomisaki1
+  - dblp_id: https://dblp.org/pid/417/7307
+    emails: '****@is.s.u-tokyo.ac.jp'
+    first_name: Yosuke
+    google_scholar_id: https://scholar.google.com/citations?user=UI9LF04AAAAJ
+    homepage: https://ylab.mystrikingly.com/
+    institution: The University of Tokyo
+    last_name: Mikami
+    name: Yosuke Mikami
+    orcid: https://orcid.org/0009-0001-6913-7799
+    semantic_scholar_id: https://www.semanticscholar.org/author/Yosuke-Mikami/2380687817
+    username: ~Yosuke_Mikami1
+  - emails: '****@g.ecc.u-tokyo.ac.jp'
+    first_name: Amane
+    institution: The University of Tokyo
+    last_name: Watahiki
+    name: Amane Watahiki
+    orcid: https://orcid.org/0009-0002-6745-8879
+    username: ~Amane_Watahiki1
+  - dblp_id: https://dblp.org/pid/187/5994
+    emails: '****@is.s.u-tokyo.ac.jp'
+    first_name: Hitomi
+    google_scholar_id: https://scholar.google.co.jp/citations?user=kwoER0sAAAAJ&hl=ja
+    homepage: http://hitomiyanaka.strikingly.com/
+    institution: RIKEN, Tohoku University, Tokyo Institute of Technology and the University of Tokyo
+    last_name: Yanaka
+    name: Hitomi Yanaka
+    orcid: https://orcid.org/0000-0003-0354-6116
+    semantic_scholar_id: https://www.semanticscholar.org/author/Hitomi-Yanaka/3486313
+    username: ~Hitomi_Yanaka2
+  file: 5.pdf
+  id: 5
+  openreview_id: 0LVc7ssayd
+  title: Japanese Discourse Structure Analysis Based on Segmented Discourse Representation Theory Using
+    LLMs
+  archival: true
+- abstract: Languages can identify subjects and objects through both morphological realization and linear
+    position, but standard corpus measures often conflate an abstract morphological analysis with a cue
+    that is actually visible in the word string. We introduce a held-out, lexical-free diagnostic of morphology–order
+    cue allocation. From 20 typologically diverse Universal Dependencies 2.18 treebanks, we extract transitive
+    clauses with one overt nominal subject and object, fit separate role decoders on official training
+    splits, and evaluate on development and test data. One decoder sees positional features; a conventional
+    upper-bound decoder sees gold CASE; and a realization-aware decoder sees only lemma-to-form edit signatures
+    and overt nominal markers, never content-word forms, lemmas, stems, or gold CASE. Eighteen treebanks
+    from 14 families meet data thresholds (34,719 training and 9,134 evaluation clauses). Realized-morphology
+    and positional information gains are strongly inversely associated ($\rho = -.75$, permutation $p
+    < .001$), with the result surviving family aggregation and every leave-one-treebank-out analysis.
+    Gold CASE gain also trades off with position, but correlates weakly with realized-morphology gain
+    ($\rho = .22$, $p = .385$). The findings support cross-linguistic cue allocation while showing that
+    abstract case tags are not interchangeable with surface evidence.
+  attributes:
+    archival: archival
+    keywords:
+    - morphology–order trade-off
+    - cue competition
+    - Universal Dependencies
+    - grammatical role prediction
+    - case marking
+    - linguistic typology
+    - held-out evaluation
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 6
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Menglin
+    institution: City University of Macau
+    last_name: Li
+    name: Menglin Li
+    orcid: https://orcid.org/0009-0006-0478-6954
+    username: ~Menglin_Li2
+  file: 6.pdf
+  id: 6
+  openreview_id: YUodfTKvSU
+  title: Where Does Grammar Put the Signal? A Realization-Aware Test of Morphology–Order Cue Trade-offs
+    across 20 Treebanks
+  archival: true
+- abstract: Large language models (LLMs) have become increasingly capable of processing informal language,
+    yet their interpretation and alignment of sarcastic slang with humans remain underexplored. This study
+    introduces SLANGCASTIC, a fine-grained English dataset comprising 200 tweets embedded with Generation
+    Z sarcastic and non-sarcastic slang, annotated by eight human raters for sarcasm and sentiment. We
+    evaluate six LLMs (GPT-4.1, GPT-5.1, GPT-OSS-20B, GPT-OSS-120B, Gemini-2.5-Flash, and Gemini-2.5-Pro)
+    and compare their ratings with those of human annotators. Findings reveal that while newer models,
+    such as GPT-5.1, show high overall agreement with humans, they all systematically over-annotate sarcasm
+    and assign more negative sentiment. Qualitative analysis suggests this discrepancy arises because
+    LLMs tend to over-reason and overanalyze semantic details. In contrast, human annotators rely on holistic,
+    pragmatic reasoning to infer the speaker’s true intent. Therefore, the findings suggest that LLM-based
+    moderation systems should account for cultural and contextual understanding when interpreting slang
+    rather than relying solely on surface-level cues.
+  attributes:
+    archival: archival
+    keywords:
+    - Sarcasm
+    - Slang
+    - Sentiment Analysis
+    - Human-AI Alignment
+    - Natural Language Processing
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 7
+  authors:
+  - emails: '****@sas.upenn.edu'
+    first_name: Zi-Xiang
+    google_scholar_id: https://scholar.google.com/citations?user=rVyCyiAAAAAJ&hl=en&oi=sra
+    institution: University of Pennsylvania
+    last_name: Lin
+    name: Zi-Xiang Lin
+    username: ~Zi-Xiang_Lin1
+  - dblp_id: https://dblp.org/pid/64/5833.html
+    emails: '****@cs.nthu.edu.tw'
+    first_name: Hung-Yu
+    google_scholar_id: https://scholar.google.com.tw/citations?user=X5Is2lAAAAAJ&hl=zh-TW
+    homepage: http://140.116.245.107/advisor.html
+    institution: Department of Computer Science, National Tsing Hua University, National Tsinghua University
+    last_name: Kao
+    name: Hung-Yu Kao
+    orcid: https://orcid.org/0000-0002-8890-8544
+    semantic_scholar_id: https://www.semanticscholar.org/author/Hung-Yu-kao/1738550
+    username: ~Hung-Yu_Kao1
+  file: 7.pdf
+  id: 7
+  openreview_id: BHlNYB9TlR
+  title: 'SLANGCASTIC: Evaluating Human-LLM Alignment on Sarcasm and Sentiment in Generation Z Slang'
+  archival: true
+- abstract: 'Machine unlearning is usually judged by whether a model stops producing the target answer,
+    and by this measure it works. Yet removal is fragile: a paraphrased query, a few unrelated fine-tuning
+    steps, or quantisation often bring the answer back. We propose an account that fits this and several
+    published findings. A model may support a fact with several sufficient computations, that is, sets
+    of internal units (components, features, or directions) each able to produce the answer on its own.
+    Unlearning is trained on a narrow forget set, so it suppresses only the computation that set uses,
+    while the others keep working. This thesis tests the account with mechanistic interpretability tools.
+    The core research questions ask whether the sufficient computations for a fact share few units, whether
+    paraphrases of the same question rely on different units, and whether these properties, measured before
+    unlearning, predict how easily the fact comes back afterwards. Two extensions ask how many paraphrases
+    unlearning must cover to be robust, and whether unlearning weakens refusal in proportion to what facts
+    and refusal share. The account is refuted if the sufficient computations found for a fact always overlap
+    heavily, or if all paraphrases rely on the same units.'
+  attributes:
+    archival: non-archival
+    keywords:
+    - LLM Unlearning
+    - evaluation methodologies
+    - knowledge localisation
+    - robustness
+    - adversarial attacks
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: thesis_proposal
+    source_venue: direct
+    openreview_number: 8
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Anna
+    google_scholar_id: https://scholar.google.com/citations?user=-o1ucmoAAAAJ&hl=en
+    homepage: https://scholar.google.com/citations?user=-o1ucmoAAAAJ&hl=en
+    institution: DS-NLP Group
+    last_name: Borisiuk
+    name: Anna Borisiuk
+    orcid: https://orcid.org/0009-0004-2974-9709
+    username: ~Anna_Borisiuk1
+  - dblp_id: https://dblp.org/pid/25/9832
+    emails: '****@hse.ru'
+    first_name: Andrey
+    homepage: http://www.hse.ru/en/staff/avsavchenko
+    institution: HSE University
+    last_name: Savchenko
+    name: Andrey Savchenko
+    orcid: https://orcid.org/0000-0001-6196-0564
+    semantic_scholar_id: https://www.semanticscholar.org/author/A.-Savchenko/35153729
+    username: ~Andrey_Savchenko1
+  - dblp_id: https://dblp.org/pid/60/9162
+    emails: '****@gmail.com'
+    first_name: Alexander
+    homepage: https://scholar.google.com/citations?user=BYba9hcAAAAJ&hl=en&oi=ao
+    institution: S-NLP Group
+    last_name: Panchenko
+    name: Alexander Panchenko
+    orcid: https://orcid.org/0000-0001-6097-6118
+    username: ~Alexander_Panchenko1
+  - dblp_id: https://dblp.org/pid/153/5554
+    emails: '****@gmail.com'
+    first_name: Elena
+    google_scholar_id: https://scholar.google.ru/citations?user=npM9yekAAAAJ
+    institution: Kazan Federal University
+    last_name: Tutubalina
+    name: Elena Tutubalina
+    orcid: https://orcid.org/0000-0001-7936-0284
+    semantic_scholar_id: https://www.semanticscholar.org/author/E.-Tutubalina/2617496
+    username: ~Elena_Tutubalina1
+  file: 8.pdf
+  id: 8
+  openreview_id: 056jZajNXi
+  title: 'Thesis Proposal: Localisation, Redundancy, and Safety Cost in LLM Unlearning'
+  archival: false
+- abstract: 'Fine-grained rating prediction requires more than recognizing whether a review is positive
+    or negative: models must calibrate the ordinal severity of sentiment on a 1-5 scale. Standard in-context
+    learning (ICL) demonstration selection typically retrieves examples by textual similarity or diversity,
+    ignoring that reviews of the same real-world entity often share implicit rating norms. We study whether
+    entity identity can serve as a lightweight calibration signal for frozen LLMs, and how this signal
+    interacts with text-based retrieval. We introduce Entity-Proportional ICL (EP-ICL), a controlled two-stage
+    selection protocol that allocates demonstration slots between same-entity and cross-entity pools using
+    a ratio $\alpha$, then selects examples within each pool by BM25 similarity. Experiments on 50,000
+    balanced Yelp reviews with Llama-7B reveal a clear interaction: entity context improves monotonically
+    under random sampling, but under BM25 retrieval it follows an inverted-U pattern, with $\alpha{=}0.5$
+    achieving the best performance (56.4\% Accuracy and 0.53 MAE). Further analysis shows that the gains
+    concentrate on confusable middle ratings (2-3 stars), and that MAE improves more than Accuracy, indicating
+    reduced severity of mistakes rather than only more exact matches. These findings suggest that entity
+    history and textual similarity provide complementary but partially redundant signals for calibrating
+    fine-grained ICL predictions without parameter updates.'
+  attributes:
+    archival: archival
+    keywords:
+    - In-Context Learning
+    - Demonstration Selection
+    - Fine-grained Sentiment Analysis
+    - Entity-aware Retrieval
+    - Ordinal Calibration
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 9
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Kaying
+    homepage: https://github.com/kayinglu
+    institution: RSEFHK Maria College
+    last_name: Lu
+    name: Kaying Lu
+    username: ~Kaying_Lu1
+  file: 9.pdf
+  id: 9
+  openreview_id: 0S2pzHCHbq
+  title: 'When Entity History Helps In-Context Learning: Balancing Identity and Similarity for Fine-Grained
+    Sentiment'
+  archival: true
+- abstract: 'Financial documents like invoices, receipts, and multi-page filings are hard for AI systems
+    to read correctly. They mix text, numbers, tables, and layouts, and the meaning of a value often depends
+    on other parts of the document - for example, a number only makes sense once you know which row, column,
+    and currency it belongs to. Current models such as LayoutLM and its successors read text, layout,
+    and images together, but they treat a document as a flat sequence of tokens. This makes them good
+    at labeling individual pieces of information but weak at connecting related pieces, especially when
+    that information is spread across multiple pages. Graph-based methods try to fix this by explicitly
+    linking related entities, but most of them only work within a single page and have rarely been tested
+    on financial documents. Combining both ideas, this thesis aims to propose CPRG-Net (Cross-Page Relational
+    Graph Network): a multimodal model that reads text, layout, and images, together with a graph-based
+    component that explicitly links related information, including across page boundaries. The goal is
+    to build a system that extracts information from financial documents more accurately than existing
+    multimodal-only or graph-only methods, and to understand exactly when and why adding this relational
+    structure actually helps.'
+  attributes:
+    keywords:
+    - multimodal information extraction
+    - financial document understanding
+    - graph neural networks
+    - document layout analysis
+    - cross-page relational modeling
+    - relation extraction
+    - table understanding
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: thesis_proposal
+    source_venue: direct
+    openreview_number: 10
+  authors:
+  - emails: '****@iiserb.ac.in'
+    first_name: Vandana
+    google_scholar_id: https://scholar.google.com/citations?view_op=new_articles&hl=en&imq=Vandana+Verma+2521002#
+    institution: Indian Institute of Science Education and Research
+    last_name: Verma
+    name: Vandana Verma
+    username: ~Vandana_Verma1
+  file: 10.pdf
+  id: 10
+  openreview_id: DmAMCb9otc
+  title: Thesis Proposal :Multimodal Information Extraction from Financial Documents using Textual and
+    Relational Representations
+  archival: true
+- abstract: 'We study hindsight-guided distillation for rare disease diagnosis on ZebraMap: a 1.5B student
+    is fine-tuned on chain-of-thought traces from a 8B teacher that observes the ground-truth diagnosis
+    during generation. Absolute accuracy remains low for all models—the task is hard at this scale—but
+    within this ceiling a filtered variant (StudentF) achieves a small, statistically significant accuracy
+    advantage over the teacher (p<0.001), concentrated in better-represented diseases. The unfiltered
+    student does not significantly outperform the teacher (p=0.129), establishing that contamination filtering—not
+    hindsight distillation alone—drives the gain. The gap traces to an artifact we term GT hallucination.
+    Label-visible generation causes the teacher to embed "ground truth is X" phrases in its reasoning
+    chain; SFT copies the pattern. At inference, the unfiltered student reproduces the phrase in 33.9%
+    of cases, with severe accuracy degradation when the hallucinated label is wrong. A regex filter removing
+    these slots reduces contamination to near-zero, producing the observed gain—though the effect remains
+    small. We precisely quantify this gain–cost tradeoff, document frequency-dependent knowledge transfer
+    absent from the RL-trained teacher, and characterize a calibration gap that SFT does not close—identifying
+    both as directions for future work.'
+  attributes:
+    keywords:
+    - Hindsight guided chain of thought
+    - CoT distillation
+    - Rare diseases
+    - ClinicalNLP
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 13
+  authors:
+  - emails: '****@iiitnr.edu.in'
+    first_name: Aarav
+    institution: International Institute of Information Technology - Naya Raipur
+    last_name: Singh
+    name: Aarav Singh
+    orcid: https://orcid.org/0009-0007-1900-2347
+    username: ~Aarav_Singh1
+  - emails: '****@iiitnr.edu.in'
+    first_name: Animesh
+    google_scholar_id: https://scholar.google.com/citations?user=HrrxBDwAAAAJ&hl=en
+    institution: International Institute of Information Technology - Naya Raipur
+    last_name: Pathak
+    name: Animesh Pathak
+    orcid: https://orcid.org/0009-0004-8706-6033
+    username: ~Animesh_Pathak1
+  - emails: '****@iiitnr.edu.in'
+    first_name: Navyansh
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=rBwPZUoAAAAJ
+    institution: International Institute of Information Technology - Naya Raipur
+    last_name: Singh
+    name: Navyansh Singh
+    orcid: https://orcid.org/0009-0008-8568-8006
+    username: ~Navyansh_Singh1
+  file: 13.pdf
+  id: 13
+  openreview_id: SoO936SmKO
+  title: Hindsight-Guided Rationale Distillation for Rare Disease Diagnosis
+  archival: true
+- abstract: 'We study when and how multimodal input improves knowledge graph question answering (KGQA)
+    in large vision--language models. Using a controlled evaluation over 1,500 WebQSP and CWQ questions
+    and six VLMs within a fixed KGQA pipeline, we compare text-only prompting against text-plus-graph
+    visualization at the per-question level and analyze performance changes as a function of reasoning
+    complexity, model size, and image layout. Adding a graph image yields an average gain of 1.85 F1 points,
+    driven by strong precision improvements on low-complexity questions (+4.65 F1). Mixed-effects and
+    regression analyses show that these multimodal gains do not depend strongly on model scale, but are
+    highly sensitive to graph layout: image-only settings sharply degrade performance, hierarchical Graphviz
+    layouts outperform less organized renderings, and decomposing large subgraphs into separated paths
+    yields the largest improvements. Taken together, the results indicate that visual prompting primarily
+    aids KGQA by enhancing prediction precision in low-complexity contexts, provided that visual design
+    respects cognitive and perceptual constraints. To optimize both accuracy and inference efficiency,
+    we argue for adaptive visual prompting policies that selectively append diagrams to small, visually
+    sparse subgraphs with well-structured layouts, avoiding unnecessary visual clutter and token overhead
+    on complex queries. We conclude by relating these findings to a visual notation design theory, outlining
+    how principled diagram encoding can guide future multimodal VLM prompting.'
+  attributes:
+    archival: archival
+    keywords:
+    - Knowledge Graph Question Answering
+    - Vision–Language Models
+    - Knowledge Graphs
+    - Physics of Notation
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 15
+  authors:
+  - emails: '****@uj.edu.pl'
+    first_name: Luiz
+    institution: Jagiellonian University
+    last_name: Miranda
+    middle_name: Do Valle
+    name: Luiz do Valle Miranda
+    orcid: https://orcid.org/0000-0003-1838-5693
+    username: ~Luiz_do_Valle_Miranda1
+  - emails: '****@uib.no'
+    first_name: Andreas
+    homepage: http://www.uib.no/persons/Andreas.Opdahl
+    last_name: Opdahl
+    middle_name: L
+    name: Andreas L Opdahl
+    username: ~Andreas_L_Opdahl1
+  - dblp_id: https://dblp.org/pid/37/873.html
+    emails: '****@uj.edu.pl'
+    first_name: Grzegorz
+    institution: Jagiellonian University in Krakow
+    last_name: Nalepa
+    middle_name: J.
+    name: Grzegorz J. Nalepa
+    username: ~Grzegorz_J._Nalepa1
+  file: 15.pdf
+  id: 15
+  openreview_id: PkgiIGqf00
+  title: Graph Visualizations in Prompts for Knowledge Graph Question Answering
+  archival: true
+- abstract: This paper looks at part-of-speech tagging for code-mixed Korean-English texts using the Panyo
+    dataset. The methods used in this research are majority baselines, in-domain perceptrons trained on
+    Panyo, and an out-of-domain UD-transfer tagger. The latter was trained on monolingual Universal Dependencies
+    corpora. The in-domain perceptrons show near-ceiling agreement with the canonical silver annotations,
+    with an accuracy of 99.97\%. In contrast, the UD-transfer tagger achieves 58.00\% accuracy against
+    the same silver reference without mapping and 63.16\% using the Panyo-Coarse mapping. Another resource
+    used for this research is the adjudicated v1.2 human reference, which includes 180 sentences and 3,186
+    tokens. The canonical silver labels agree with this human reference on 64.06\% of tokens. The Conservative-mapped
+    UD-transfer tagger has the highest observed human-reference accuracy at 64.63\%, compared with 64.09\%
+    for both in-domain perceptrons and 63.40\% for the unmapped UD-transfer tagger. These differences
+    are merely descriptive and do not establish statistical superiority. Ablation studies evaluated against
+    the silver reference, carried out after the review, reveal that removing direct word-identity features
+    has little effect, but removing character affixes as well causes a substantial decrease in accuracy.
+    Near-perfect accuracy against the silver reference may reflect the models' ability to reproduce the
+    corpus annotation scheme rather than their accuracy against human annotations.
+  attributes:
+    archival: archival
+    keywords:
+    - Korean-English code-switching
+    - part-of-speech tagging
+    - Universal Dependencies
+    - cross-lingual transfer
+    - annotation compatibility
+    - error analysis
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 16
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Isaac
+    homepage: https://github.com/isaack-dev
+    institution: Collin County Community College District and Wakeland High School
+    last_name: Kwun
+    name: Isaac Kwun
+    username: ~Isaac_Kwun1
+  file: 16.pdf
+  id: 16
+  openreview_id: i4hRv4tize
+  title: A Baseline and Error Analysis Study of POS Tagging for Korean-English Code-Switching Text
+  archival: true
+- abstract: This paper introduces the technical aspect of a framework for detecting social biases in large
+    language model (LLM) training material. The pipeline treats bias not as a single and flattened sentiment
+    score but as recurrent linguistic patterns. For each demographic group, the proposed pipeline constructs
+    a multidimensional profile. This includes syntactic prominence (Subjecthood), semantic construals
+    (Agency, Patienthood, Subjectivity), target-bound evaluative framing (AttI), and contextual embedding
+    association (WEAT, CEAT-variants). Finally, an exploratory PCA-based Evaluative Framing Index (EFI)
+    summarizes cross-group variation. Preliminary results show that PC1, descriptively labeled contextual
+    salience, explains 41.6\% of variance, while PC2 reveals a SI-vs-WEAT opposition at 22.8\%. While
+    currently limited to a pilot scale, the pipeline establishes a reproducible foundation for capturing
+    bias as a structural linguistic phenomenon.
+  attributes:
+    archival: non-archival
+    keywords:
+    - Ethics Bias and Fairness
+    - Discourse and Pragmatics
+    - Linguistic Theories Cognitive Modeling
+    - and Psycholinguistics
+    - Resources and Evaluation
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 17
+  authors:
+  - emails: '****@univr.it'
+    first_name: Clara
+    institution: University of Verona
+    last_name: Liang
+    name: Clara Liang
+    username: ~Clara_Liang1
+  file: 17.pdf
+  id: 17
+  openreview_id: sNted54WHW
+  title: A Linguistically Grounded Pipeline for Bias Profiling in LLM Pretraining Corpora
+  archival: false
+- abstract: 'Hindi encodes honorific level through pronouns (aap/tum/tu) and verb agreement. We ask whether
+    Gemma-2-2B represents this level before any such marker appears, and whether public Gemma Scope SAEs
+    expose a feature that captures it. We build a 600-pair contrastive Hindi set with a context-only,
+    pre-marker condition: the input describes the social setting but contains no second-person pronoun
+    or agreement-bearing form. On this condition, a linear probe on a middle layer reaches AUROC 0.722,
+    against 0.610 for word TF–IDF, 0.550 for character n-grams, and 0.535 at layer 0. The signal holds
+    with addressee roles held out (0.692) and on naturalistic prefixes (0.655). Because the contexts state
+    the speaker–addressee relation, and the probe is binary (aap versus tum/tu), this shows that register-relevant
+    social context is linearly decodable, not that the model holds a dedicated honorific variable.
+
+
+    The SAE analysis is negative. At layer 2, none of 50 candidates ranked by raw effect size passes our
+    prespecified pronoun-specificity audit, and an exploratory five-prompt intervention on the top candidate
+    shows no dose response or necessity. We therefore frame the work as a probing and negative-results
+    study: it does not localise honorific information in the SAE dictionary or identify a causal handle.
+    We release the dataset, rubric, and a single-GPU pipeline.'
+  attributes:
+    archival: archival
+    keywords:
+    - Hindi honorifics
+    - mechanistic interpretability
+    - sparse autoencoders
+    - Gemma-2
+    - contextual probing
+    - activation steering
+    - sociolinguistics
+    - multilingual language models
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 18
+  authors:
+  - emails: '****@snu.edu.in'
+    first_name: Animesh
+    homepage: https://animeshmishra.us
+    institution: Indian Institute of Technology, Patna
+    last_name: Mishra
+    name: Animesh Mishra
+    orcid: https://orcid.org/0009-0009-1770-6329
+    username: ~Animesh_Mishra1
+  - emails: '****@snu.edu.in'
+    first_name: Krishang
+    homepage: https://github.com/krishang118
+    institution: Shiv Nadar University
+    last_name: Sharma
+    name: Krishang Sharma
+    orcid: https://orcid.org/0009-0003-3812-5837
+    username: ~Krishang_Sharma1
+  file: 18.pdf
+  id: 18
+  openreview_id: VbliQrBOcK
+  title: Where Does Politeness Live in Hindi? A Mechanistic Case Study of Honorific Encoding in Gemma
+    Scope SAEs
+  archival: true
+- abstract: 'Dense retrieval can retrieve relevant text efficiently, but attribute-specific
+
+    value extraction is often left to a computationally expensive neural reader or
+
+    generator invoked after retrieval. We study an alternative that replaces this
+
+    post-retrieval answer-readout stage: embedding text-derived knowledge graphs as
+
+    algebraic retrieval objects, where graph matching is expressed through sums of
+
+    Kronecker products and answer values are read out directly from the learned
+
+    representation. On WikiNLDB-derived graphs, our prototype with query/fact
+
+    encoders, maximal coding rate reduction (MCR2) regularization,
+
+    and projected retrieval/readout reaches 0.888 fact F1 and 0.614 answer F1 on
+
+    the training split, compared with 0.803 and 0.549 without
+
+    MCR2. Robustness probes show
+
+    sensitivity to graph construction choices: predicate-centered to direct-edge
+
+    rewrites reduce fact F1 from 0.818 to 0.346 and answer F1 from 0.839 to 0.299.
+
+    We also identify a redundancy bias in additive dot-product graph scoring and
+
+    show that weighted coding-rate scoring partially reduces it, improving the
+
+    post-rewrite fact F1 from 0.346 to 0.463. In a 40-query post-preparation
+
+    latency pilot, support retrieval and direct answer readout take
+
+    1.82 and 0.94 ms/query, respectively. These results support dense retrieval
+
+    over knowledge graphs with direct value extraction while clarifying the
+
+    representational and scoring challenges that remain.'
+  attributes:
+    archival: archival
+    keywords:
+    - Knowledge graphs
+    - Open information retrieval
+    - Knowledge graph representation learning
+    - Maximal coding rate reduction
+    - Retrieval-augmented generation
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 19
+  authors:
+  - emails: '****@student.mahidol.ac.th'
+    first_name: Surawat
+    institution: Mahidol University and H LAB Co., Ltd.
+    last_name: Pralomram
+    name: Surawat Pralomram
+    orcid: https://orcid.org/0009-0000-4263-6988
+    username: ~Surawat_Pralomram1
+  - emails: '****@mahidol.ac.th'
+    first_name: Tanasanee
+    google_scholar_id: https://scholar.google.com/citations?user=lKzamcQAAAAJ&hl=th
+    homepage: https://sites.google.com/view/tanasanee/
+    institution: Mahidol University and Mahidol University International College
+    last_name: Phienthrakul
+    name: Tanasanee Phienthrakul
+    orcid: https://orcid.org/0000-0002-5521-9160
+    semantic_scholar_id: https://www.semanticscholar.org/author/Tanasanee-Phienthrakul/49539263/referenced-authors
+    username: ~Tanasanee_Phienthrakul2
+  file: 19.pdf
+  id: 19
+  openreview_id: Ox8xX89K11
+  title: Towards Dense Retrieval over Open-domain Knowledge Graphs with Direct Value Extraction
+  archival: true
+- abstract: We present $\textbf{LiLA}$ (Linguistically informed Levenshtein Algorithm), a phonologically
+    motivated edit distance metric for Indo-Aryan languages. LiLA extends the classical Levenshtein distance
+    by making the substitution costs a function of the features of the phonemes involved. LiLA achieves
+    a cophenetic correlation coefficient of 0.942 and a generalized quartet distance of 0.2857 compared
+    to the reference phylogeny. A 40 word subsampling with 1000 iterations achieves an average cophenetic
+    correlation coefficient and GQD of 0.9137 and 0.2905 respectively. We additionally release the IPA-transcribed
+    Swadesh dataset for 14 South Asian languages.
+  attributes:
+    keywords:
+    - Historical linguistics
+    - Phylogenetic reconstruction
+    - Phonological features
+    - Indo-Aryan languages
+    - Edit distance
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 20
+  authors:
+  - emails: '****@kgpian.iitkgp.ac.in'
+    first_name: Piyush
+    institution: Indian Institute of Technology Kharagpur
+    last_name: Sarangi
+    name: Piyush Sarangi
+    orcid: https://orcid.org/0009-0001-7836-0079
+    username: ~Piyush_Sarangi1
+  file: 20.pdf
+  id: 20
+  openreview_id: n3BOkVbRgi
+  title: 'LiLA: Linguistically informed Levenshtein Algorithm for Indo–Aryan Languages'
+  archival: false
+- abstract: Developmental language disorder is a common childhood condition of unknown origin, identified
+    by ruling other causes out rather than by a positive test. A growing body of machine-learning research
+    addresses its automatic identification. Instead of training another classifier, we repurpose a self-supervised
+    speech model as a measurement instrument, and ask through concept erasure whether it uses a developmental
+    dimension or merely encodes it. Readings are anchored to validated markers, and acquisition is controlled
+    at the source. Calibration on public child speech under a five-part validity protocol needs no labels
+    and is already under way. We then read it on 243 recordings from 102 French-speaking children, where
+    identification waits on the release of the cohort's diagnostic labels. The first design reads what
+    the clinical literature already knows. The second removes the validated marker from a raw-signal model
+    and asks what still carries the decision. Finally, we test the markers outside the language and the
+    cohort they were built on. Whichever design is used, we report accuracy beside the degradation after
+    erasure, so a clinician sees not only how a reading performs but whether it rests on the intended
+    dimension.
+  attributes:
+    archival: archival
+    keywords:
+    - developmental language disorder
+    - self-supervised speech models
+    - concept erasure
+    - clinical speech
+    - child speech
+    - measurement validity
+    - confound
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: thesis_proposal
+    source_venue: direct
+    openreview_number: 22
+  authors:
+  - emails: '****@umontreal.ca'
+    first_name: Qiwei
+    homepage: https://peter-awe.github.io/about/
+    institution: Université de Montréal
+    last_name: Pan
+    name: Qiwei Pan
+    username: ~Qiwei_Pan1
+  - emails: '****@umontreal.ca'
+    first_name: Selcuk
+    google_scholar_id: https://scholar.google.com/citations?user=d51c_CoAAAAJ&hl=en
+    institution: Université de Montréal
+    last_name: Guven
+    name: Selcuk Guven
+    orcid: https://orcid.org/0000-0002-2023-7852
+    username: ~Selcuk_Guven1
+  file: 22.pdf
+  id: 22
+  openreview_id: yNBYc7nuJt
+  title: 'Thesis Proposal: Self-Supervised Speech Models for Understanding and Identifying Developmental
+    Language Disorder in Children'
+  archival: true
+- abstract: 'We examine how a training corpus''s bias transfers to a model fine-tuned on it. We fine-tune
+    Llama 3.2 3B Instruct on four corpora spanning a bias range: partisan NELA-GT news, its high-bias
+    filtered subset in NELA-GT-HB, auto-generated NELA-PS content, and Wikipedia articles on US high schools.
+    We evaluate the five models on 1,500 completions (300 each, across 15 prompts). Bias is scored per-completion
+    by an LLM-as-Judge and via WEAT. Fine-tuning on NELA-GT raises mean bias above base, with largest
+    shifts on climate and immigration. NELA-GT-HB raises this further. Fine-tuning on NELA-PS reduces
+    output bias. However, Wikipedia fine-tuning produces the highest raw mean output bias and the largest
+    WEAT effect sizes, despite the low bias score of the corpus. Wiki is the only condition that hallucinates
+    at an abnormal rate. Correcting for the judge''s false-positive rate, 36.9% of Wiki''s completions
+    include fabricated laws, policies, or officials. We primarily attribute this paradox to hallucination
+    inflation, compounded by an overfit condition on a small corpus and amplification of pre-existing
+    biases. These results indicate that corpus-level bias scores are not reliable predictors of fine-tuned
+    model bias, and that LLM-as-Judge evaluations of bias risk conflating factual accuracy with actual
+    bias in models that hallucinate more.'
+  attributes:
+    archival: archival
+    keywords:
+    - bias transfer
+    - supervised fine-tuning
+    - LLM-as-a-judge
+    - hallucination
+    - political bias
+    - media bias
+    - LoRA
+    - Word Embedding Association Test
+    - bias evaluation
+    - large language models
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 23
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Boxuan
+    homepage: https://bxshan.github.io
+    institution: The Harker School
+    last_name: Shan
+    name: Boxuan Shan
+    username: ~Boxuan_Shan2
+  file: 23.pdf
+  id: 23
+  openreview_id: IWGdZBhDX5
+  title: Bias Transfer in Large Language Models through Supervised Fine-Tuning
+  archival: true
+- abstract: 'Multiple-choice accuracy alone may provide an incomplete assessment of Large Language Models
+    (LLMs) on Thai cultural knowledge because selecting the expected answer does not reveal the quality
+    or consistency of the model’s justification. We introduce E-MCQ, a 200-item, expert-reviewed benchmark
+    for Thai social norms and beliefs that requires both answer selection and natural-language explanation
+    generation. We evaluate eight open-weight LLMs (≤9B parameters) across general-purpose, Southeast
+    Asian multilingual, and Thai-specialized model groups. Southeast Asian multilingual models achieve
+    the highest average Exact Match score, exceeding the general-purpose baselines by 10.1 percentage
+    points, while Thai-specialized models obtain the highest average LLM-as-Judge score. However, performance
+    varies substantially across individual systems: Sailor2-8B achieves the highest score on both answer
+    selection and explanation evaluation, while several models combine competitive answer accuracy with
+    incoherent, unsupported, or answer-inconsistent explanations. These results show that answer accuracy
+    alone does not fully characterize model performance on Thai cultural knowledge.'
+  attributes:
+    archival: archival
+    keywords:
+    - explanation-based multiple-choice questions
+    - cultural benchmark
+    - Thai NLP
+    - model evaluation
+    - large language models
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 24
+  authors:
+  - emails: '****@mail.kmutt.ac.th'
+    first_name: Mengqi
+    institution: King Mongkut's University of Technology Thonburi
+    last_name: Zhang
+    name: Mengqi Zhang
+    username: ~Mengqi_Zhang13
+  - emails: '****@mail.kmutt.ac.th'
+    first_name: Sinsorn
+    institution: King Mongkut's University of Technology Thonburi
+    last_name: Chaithavornkit
+    name: Sinsorn Chaithavornkit
+    username: ~Sinsorn_Chaithavornkit1
+  - emails: '****@mail.kmutt.ac.th'
+    first_name: Wachiraya
+    institution: King Mongkut's University of Technology Thonburi, King Mongkut's University of Technology
+      Thonburi
+    last_name: Pichayacharunkul
+    name: Wachiraya Pichayacharunkul
+    username: ~Wachiraya_Pichayacharunkul1
+  - emails: '****@kmutt.ac.th'
+    first_name: Sansiri
+    google_scholar_id: https://scholar.google.com/citations?user=QnaK948AAAAJ&hl=en
+    institution: King Mongkut's University of Technology Thonburi
+    last_name: Tarnpradab
+    name: Sansiri Tarnpradab
+    orcid: https://orcid.org/0000-0003-2145-9542
+    username: ~Sansiri_Tarnpradab1
+  - dblp_id: https://dblp.org/pid/298/0429.html
+    emails: '****@kmutt.ac.th'
+    first_name: Aye
+    google_scholar_id: https://scholar.google.com/citations?user=dXABPqkAAAAJ
+    homepage: https://sites.google.com/view/ayehninnkhine
+    institution: King Mongkut's University of Technology Thonburi
+    last_name: Khine
+    middle_name: Hninn
+    name: Aye Hninn Khine
+    orcid: https://orcid.org/0000-0001-6078-3906
+    semantic_scholar_id: https://www.semanticscholar.org/author/A.-Khine/1396107346
+    username: ~Aye_Hninn_Khine2
+  file: 24.pdf
+  id: 24
+  openreview_id: tgKMFGavUa
+  title: 'Beyond Multiple-Choice Accuracy: Evaluating Thai Cultural Reasoning with Explanation-Based MCQs'
+  archival: true
+- abstract: Diachronic word embeddings have become the modern standard for tracking semantic change, yet
+    they have been largely validated on modern, high-resource, and well-segmented languages. This paper
+    tests whether the paradigm transfers to Sanskrit, an ancient, low-resource language whose phonological
+    fusion (sandhi), morphological inflection, compounding, and polysemy pose a unique challenge. I assemble
+    a 2.7M-token corpus spanning four canonical periods, recover word boundaries with a neural byte-level
+    sandhi splitter and lemmatizer, and train per-period embeddings across configurations. To evaluate
+    the system, I curate a validation set from historical scholarship and test recovery directionally
+    with anchor displacement. Of 21 testable shifts, 19 move in the philologically attested direction
+    (sign test, p=0.00011). I further show which configuration the language forces and comment on opportunities
+    for improvement.
+  attributes:
+    archival: archival
+    keywords:
+    - lexical semantic change
+    - diachronic word embeddings
+    - historical linguistics
+    - Sanskrit
+    - low-resource languages
+    - ancient languages
+    - distributional semantics
+    - word segmentation
+    - digital corpus
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 25
+  authors:
+  - emails: '****@students.harker.org'
+    first_name: Tanay
+    homepage: https://www.tanayagrawal.xyz/
+    institution: The Harker School
+    last_name: Agrawal
+    name: Tanay Agrawal
+    username: ~Tanay_Agrawal3
+  file: 25.pdf
+  id: 25
+  openreview_id: PHEtOWxzQ6
+  title: A Computational Approach to Measuring Semantic Change in Sanskrit Literature
+  archival: true
+- abstract: Traditional sentiment analysis reduces consumer affect to singular polarity scores, obscuring
+    the specific experiencer and causal mechanisms of an emotion. This paper introduces Emotion Quadruplet
+    Extraction (EQE), a joint task extracting the Emotion, Emotion Cause Object, Emotion Cause Action,
+    and Emotion Experiencer. Grounded in cognitive appraisal theory, EQE advances beyond monolithic cause-extraction
+    paradigms by bifurcating the causal antecedent into a target object and its situational action. To
+    support this, a span-level annotated product-review corpus, EmoReview, is introduced. We formulate
+    the task as an instruction-guided generation utilizing a T5 encoder-decoder initialized with Aspect-Based
+    Sentiment Analysis (ABSA) weights. Experiments reveal that zero-shot frontier models (e.g., GPT-4o-mini,
+    Gemini 3.1 Flash-Lite) fail to generate valid structural spans. Conversely, emotion-anchored finetuning
+    of the ABSA-primed model raises overall F1 from 0.007 to 0.248, outperforming zero-shot decoders.
+    Our findings identify Cause Action extraction as the primary bottleneck, exposing a concrete challenge
+    for future fine-grained emotion analysis and understanding.
+  attributes:
+    archival: archival
+    keywords:
+    - Emotion Quadruplet Extraction
+    - Emotion Cause Extraction
+    - Encoder-Decoder Models
+    - Instruction-Guided Fine-Tuning
+    - Causal Antecedent Disentanglement
+    - Cognitive Appraisal Theory
+    - Span-Level Information Extraction
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 26
+  authors:
+  - emails: '****@student.usm.my'
+    first_name: Yee
+    institution: Universiti Sains Malaysia
+    last_name: Ong
+    middle_name: Chiun
+    name: Yee Chiun Ong
+    username: ~Yee_Chiun_Ong1
+  - emails: '****@usm.my'
+    first_name: Jasy Suet Yan
+    google_scholar_id: https://scholar.google.com/citations?user=i930eoYAAAAJ&hl=en
+    homepage: https://cs.usm.my/index.php/faculty-member/181-jasy-liew-suet-yan-dr
+    institution: Universiti Sains Malaysia
+    last_name: Liew
+    name: JASY SUET YAN LIEW
+    orcid: https://orcid.org/0000-0001-7362-7507
+    username: ~JASY_SUET_YAN_LIEW2
+  file: 26.pdf
+  id: 26
+  openreview_id: zm7fSU4m4C
+  title: 'Beyond the Cause: Disentangling Object and Action Causes for Emotion Quadruplet Extraction in
+    Product Reviews'
+  archival: true
+- abstract: Sarcasm detection is a core problem in natural language processing (NLP), requiring models
+    to infer the intended meaning that cannot be captured by lexical mapping. This short paper investigates
+    whether large language models (LLMs) perform sarcasm detection better in a fast, intuitive System
+    1 prompt or a slower, deliberative System 2 prompt. Using the iSarcasmEval dataset, we compare Zero-Shot
+    (System 1) with Zero-Shot-Chain-of-Thought (Zero-Shot-CoT) (System 2) promptings across six LLMs.
+    Additionally, we introduce Conservative Prompting, a threshold-based strategy that biases models toward
+    non-sarcastic predictions unless strong evidence supports sarcasm. Experimental results show that
+    Zero-Shot prompting outperforms Zero-Shot-CoT in accuracy and F1-score, supporting the claim that
+    System 1 surpasses System 2 prompts in sarcasm detection. Furthermore, Conservative Prompting significantly
+    improves performance by increasing precision and reducing false positives. Together, these findings
+    contribute a novel perspective to the sarcasm detection task and promote safer human-computer interaction.
+  attributes:
+    archival: archival
+    keywords:
+    - Conservative Prompting
+    - Sarcasm Detection
+    - System 1 Cognition
+    - Natural Language Processing
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 27
+  authors:
+  - emails: '****@sas.upenn.edu'
+    first_name: Zi-Xiang
+    google_scholar_id: https://scholar.google.com/citations?user=rVyCyiAAAAAJ&hl=en&oi=sra
+    institution: University of Pennsylvania
+    last_name: Lin
+    name: Zi-Xiang Lin
+    username: ~Zi-Xiang_Lin1
+  - dblp_id: https://dblp.org/pid/64/5833.html
+    emails: '****@cs.nthu.edu.tw'
+    first_name: Hung-Yu
+    google_scholar_id: https://scholar.google.com.tw/citations?user=X5Is2lAAAAAJ&hl=zh-TW
+    homepage: http://140.116.245.107/advisor.html
+    institution: Department of Computer Science, National Tsing Hua University, National Tsinghua University
+    last_name: Kao
+    name: Hung-Yu Kao
+    orcid: https://orcid.org/0000-0002-8890-8544
+    semantic_scholar_id: https://www.semanticscholar.org/author/Hung-Yu-kao/1738550
+    username: ~Hung-Yu_Kao1
+  file: 27.pdf
+  id: 27
+  openreview_id: w84pQhIf3z
+  title: 'Rethinking Sarcasm Detection: System 1 Prompting with Conservative Enhancement'
+  archival: true
+- abstract: Voting-based retrieval-augmented generation (RAG) generates one answer candidate from each
+    retrieved passage and selects a final answer by plurality voting. Because conventional voting-based
+    RAG treats all answer candidates equally, the same incorrect answer generated from multiple passages
+    can receive the most votes and be selected as the final answer. To reduce the influence of such repeated
+    incorrect answers, we propose confidence-based answer candidate filtering for voting-based RAG (ConFiVote).
+    ConFiVote is motivated by the hypothesis that signals obtained during answer generation can help distinguish
+    incorrect candidates from correct ones. Therefore, ConFiVote uses an answer candidate classifier to
+    assign each candidate a confidence score based on these signals. Candidates with scores below a threshold
+    are removed before plurality voting, aiming to increase the relative share of votes supporting correct
+    answers. Experiments on AI-O 2.0, a Japanese factoid question-answering dataset, show that ConFiVote
+    improves final-answer accuracy over unfiltered voting for all three evaluated LLMs, with gains of
+    12.9, 5.3, and 4.2 percentage points for Qwen, Swallow, and llm-jp, respectively.
+  attributes:
+    archival: archival
+    keywords:
+    - retrieval-augmented generation
+    - question answering
+    - confidence estimation
+    - large language models
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 28
+  authors:
+  - emails: '****@g.hit-u.ac.jp'
+    first_name: Daiki
+    homepage: https://hitu-keylab.github.io/keyaki-lab/member/ay2025-hayata/
+    institution: Hitotsubashi University
+    last_name: Hayata
+    name: Daiki Hayata
+    username: ~Daiki_Hayata1
+  - dblp_id: https://dblp.org/pid/136/4977.html
+    emails: '****@core.d-itlab.co.jp'
+    first_name: Yuuki
+    google_scholar_id: https://scholar.google.com/citations?user=y15I6lIAAAAJ&hl=ja
+    homepage: http://tachioka.gokenin.com/
+    institution: Denso IT Laboratory
+    last_name: Tachioka
+    name: Yuuki Tachioka
+    orcid: https://orcid.org/0009-0002-0587-2943
+    semantic_scholar_id: https://www.semanticscholar.org/author/Yuuki-Tachioka/2785983
+    username: ~Yuuki_Tachioka2
+  - dblp_id: https://dblp.org/pid/88/2433
+    emails: '****@r.hit-u.ac.jp'
+    first_name: Mamoru
+    google_scholar_id: https://scholar.google.com/citations?user=dFPPwwIAAAAJ
+    homepage: https://www.scl.sds.hit-u.ac.jp/
+    institution: Hitotsubashi University
+    last_name: Komachi
+    name: Mamoru Komachi
+    orcid: https://orcid.org/0000-0003-1166-1739
+    semantic_scholar_id: https://www.semanticscholar.org/author/Mamoru-Komachi/2936411
+    username: ~Mamoru_Komachi1
+  - dblp_id: https://dblp.org/pid/45/9489
+    emails: '****@r.hit-u.ac.jp'
+    first_name: Atsushi
+    homepage: https://www.keyakkie.com/
+    institution: Hitotsubashi University
+    last_name: Keyaki
+    name: Atsushi Keyaki
+    orcid: https://orcid.org/0000-0001-6495-117X
+    semantic_scholar_id: https://www.semanticscholar.org/author/Atsushi-Keyaki/2395904705
+    username: ~Atsushi_Keyaki1
+  file: 28.pdf
+  id: 28
+  openreview_id: fWKP8K5x4z
+  title: Confidence-Based Candidate Filtering for Voting-Based Retrieval-Augmented Question Answering
+  archival: true
+- abstract: Frontier Large Language Models (LLMs) are predominantly optimized for high-resource languages,
+    leaving low-resource scripts like Khmer vulnerable to ``language bleeding''---the unprompted intrusion
+    of foreign lexical tokens, Latin script, or dominant-language syntactic structures into output text.
+    In this work, we explore a localized training pipeline for a compact 100-million-parameter Khmer language
+    model that combines Khmer-specialized tokenization with purity-constrained data curation and supervised
+    fine-tuning. On a targeted 201-question Khmer historical and regional QA benchmark, Bayon achieves
+    a Language Bleed Ratio (LBR) of 0.06\%, while obtaining 15 correct answers compared with 4 for the
+    0.5B-parameter Qwen2.5-Instruct baseline. We further observe substantially shorter tokenized sequences
+    for Bayon on three illustrative Khmer passages, with 1.65$\times$ to 4.49$\times$ fewer tokens than
+    the comparison tokenizers. These results provide preliminary evidence that language-focused specialization
+    can enable compact models to produce highly script-consistent Khmer output under limited compute.
+    Importantly, low LBR measures script purity rather than overall Khmer generation quality; we therefore
+    treat language bleeding and task accuracy as complementary evaluation dimensions.
+  attributes:
+    archival: archival
+    keywords:
+    - Khmer NLP
+    - Low-Resource NLP
+    - Small Language Models
+    - Khmer
+    - Language Bleeding
+    - Language Confusion
+    - Tokenization
+    - Knowledge Distillation
+    - Supervised Fine-Tuning
+    - Script Fidelity
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 29
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Seng
+    institution: 'Footprints International school '
+    last_name: Sovannpanha
+    name: Seng Sovannpanha
+    orcid: https://orcid.org/0009-0003-0871-4745
+    username: ~Seng_Sovannpanha1
+  file: 29.pdf
+  id: 29
+  openreview_id: pdjC9pf9BO
+  title: 'Small Model, Native Design: Exploring Linguistic Purity and Reduced Language Bleeding in a 100M
+    Khmer Language Model'
+  archival: true
+- abstract: 'Look-alike sound-alike (LASA) drug names are a leading cause of medication errors worldwide.
+    However, existing detection systems are calibrated to American English phonology and have not been
+    validated for Filipino, the primary language used in Philippine clinical settings. To address this,
+    we propose an end-to-end framework targeting two gaps in the literature: the absence of a Filipino
+    grapheme-to-phoneme (G2P) system for pharmaceutical brand names, and the English-centric calibration
+    of current phonetic similarity algorithms. Our approach fine-tunes a ByT5-based G2P model, preceded
+    by a rule-based nativization layer for foreign-origin brand names, and recalibrates the ALINE phonetic
+    alignment algorithm to Filipino phonology. We compare a heuristic baseline with logistic regression,
+    gradient boosting frameworks (LightGBM, CatBoost, XGBoost), and Mitra, a prior-data fitted network,
+    on a new Filipino LASA dataset constructed from the Philippine Food and Drug Administration drug registry.
+    The G2P model lowers the phoneme error rate from 5.87% to 3.00%. In preliminary classifier experiments,
+    only Mitra and CatBoost exceed the baseline''s area under the precision-recall curve, by at most 0.02,
+    and the trained classifiers barely improve on the baseline when separating confusable pairs from hard
+    negatives.'
+  attributes:
+    archival: archival
+    keywords:
+    - phonetic similarity
+    - grapheme-to-phoneme conversion
+    - low-resource NLP
+    - Filipino
+    - confusable drugs
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: thesis_proposal
+    source_venue: direct
+    openreview_number: 30
+  authors:
+  - emails: '****@dlsu.edu.ph'
+    first_name: Zhean
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=tGIiReAAAAAJ&view_op=list_works&authuser=1&gmla=AKzYXQ1eV90osK3ON3osJjEaDuQ26YNARMo1__Rx4A0xkB3ee8WQHxHVY_3u1Gjo20W5S-OdW0_6J9wTbPS-75dt
+    institution: De La Salle University
+    last_name: Ganituen
+    middle_name: Robby
+    name: Zhean Robby Ganituen
+    orcid: https://orcid.org/0009-0002-3266-5384
+    username: ~Zhean_Robby_Ganituen1
+  - emails: '****@dlsu.edu.ph'
+    first_name: Stephen
+    homepage: https://www.linkedin.com/in/stephen-borja-3b43a3243/
+    institution: De La Salle University
+    last_name: Borja
+    middle_name: Matulac
+    name: Stephen Matulac Borja
+    username: ~Stephen_Matulac_Borja1
+  - emails: '****@dlsu.edu.ph'
+    first_name: Erin
+    institution: De La Salle University
+    last_name: Chua
+    middle_name: Gabrielle
+    name: Erin Gabrielle Chua
+    username: ~Erin_Gabrielle_Chua1
+  - emails: '****@dlsu.edu.ph'
+    first_name: Gideon
+    institution: De La Salle University
+    last_name: Chua
+    middle_name: M.
+    name: Gideon M. Chua
+    username: ~Gideon_M._Chua1
+  - emails: '****@dlsu.edu.ph'
+    first_name: Kristine
+    institution: De La Salle University
+    last_name: Kalaw
+    name: Kristine Kalaw
+    username: ~Kristine_Kalaw1
+  - dblp_id: https://dblp.org/pid/144/1041
+    emails: '****@yahoo.com'
+    first_name: Nathaniel
+    google_scholar_id: https://scholar.google.com/citations?user=kQ_FVr4AAAAJ&hl=en
+    institution: De La Salle University
+    last_name: Oco
+    name: Nathaniel Oco
+    orcid: https://orcid.org/0000-0001-9080-8780
+    username: ~Nathaniel_Oco1
+  file: 30.pdf
+  id: 30
+  openreview_id: z4TH3pn6Jk
+  title: 'Thesis Proposal: Automated Detection of Confusable Drug Names in Filipino'
+  archival: true
+- abstract: Multi-agent large language model (LLM) frameworks have shown promise in automating requirements
+    engineering (RE), where specialised agents collaborate to transform informal stakeholder descriptions
+    into structured Software Requirements Specifications. However, existing frameworks typically rely
+    on fixed, hand-coded action schedules that cannot adapt to the evolving state of generated requirements
+    artefacts. We propose a reinforcement learning (RL)-driven orchestration framework in which a Proximal
+    Policy Optimisation (PPO) policy dynamically selects agent actions based on a compact representation
+    of the shared document workspace. The framework also introduces a dedicated Negotiator agent for conflict
+    identification, resolution, and requirement prioritisation. To guide policy learning, a grounded oracle
+    based on sentence-embedding cosine similarity provides reward signals instead of LLM self-reported
+    quality scores. Paired evaluation across 22 scenarios spanning 14 software domains shows that the
+    proposed framework achieves a higher mean oracle reward than a fixed-schedule baseline (0.630 vs.
+    0.574; Cohen's $d = 1.11$, $p < 0.001$). Requirements precision improves by a mean absolute difference
+    of 0.269 across the paired scenarios ($d = 2.12$, $p < 0.0001$), while coverage is fully preserved.
+    A controlled ablation further shows that the Negotiator's hand-specified action set improves conflict
+    handling ($d = 1.23$, $p < 0.0001$), without measurable reductions in coverage, precision, or non-functional
+    requirements coverage. These findings suggest that RL-driven agent orchestration can improve oracle-aligned
+    requirements generation and conflict handling while maintaining requirements coverage.
+  attributes:
+    archival: archival
+    keywords:
+    - Requirements Engineering
+    - Multi-Agent Systems
+    - Large Language Models
+    - Reinforcement Learning
+    - Proximal Policy Optimization
+    - Software Requirements Specification Generation.
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 31
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Sujair
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=k8-yPXAAAAAJ
+    homepage: https://blockdeveloper25.github.io/my_portfolio_site/
+    institution: Sabaragamuwa University of Sri Lanka
+    last_name: Ibrahim
+    name: Sujair Ibrahim
+    orcid: https://orcid.org/0009-0006-3093-9942
+    username: ~Sujair_Ibrahim1
+  - dblp_id: https://dblp.org/pid/409/7242
+    emails: '****@gmail.com'
+    first_name: Vadivel
+    google_scholar_id: https://scholar.google.com/citations?user=NS_NqM4AAAAJ&hl=en
+    institution: The Open University of Sri Lanka and Sabaragamuwa University of Sri Lanka
+    last_name: Abishethvarman
+    name: Vadivel Abishethvarman
+    orcid: https://orcid.org/0009-0003-5069-6974
+    semantic_scholar_id: https://www.semanticscholar.org/author/Vadivel-Abishethvarman/2297954854
+    username: ~Vadivel_Abishethvarman1
+  - emails: '****@appsc.sab.ac.lk'
+    first_name: B.
+    google_scholar_id: https://scholar.google.com/citations?user=-58Y-gEAAAAJ&hl=en&oi=ao
+    homepage: https://www.sab.ac.lk/staff-directory/118
+    institution: Sabaragamuwa University of Sri Lanka
+    last_name: Kumara
+    middle_name: T. G. S.
+    name: B. T. G. S. Kumara
+    orcid: https://orcid.org/0000-0003-3941-2275
+    username: ~B._T._G._S._Kumara1
+  file: 31.pdf
+  id: 31
+  openreview_id: YDiFWAtiAJ
+  title: A Reinforcement Learning Decision Layer for Multi-Agent Requirements Engineering
+  archival: true
+- abstract: In this paper, we introduce Japanese Onomatopoeia Loss Corpus, the first manually curated
+    Japanese–English dataset designed to study expressive translation loss in Japanese onomatopoeia. JOLC
+    contains 1,307 manually composed Japanese sentences covering 79 commonly used onomatopoeia, each paired
+    with an English translation. To quantify how much of the original expressive meaning is weakened during
+    translation, we introduce the Expressive Translation Loss Score (ETLS), a five-point scale covering
+    sensory, emotional, temporal, pragmatic, and culturally specific meaning. Each instance also includes
+    structured linguistic and translation related annotations, supporting predictive modeling and detailed
+    analysis of expressive loss. We frame ETLS prediction as sentence-level regression and evaluate XLM-R
+    and mBERT under stratified and group splits. Performance is substantially stronger when onomatopoeia
+    types overlap between training and test sets, while generalization to unseen types remains difficult,
+    suggesting substantial reliance on lexical overlap rather than robust generalization. We therefore
+    position JOLC as a diagnostic benchmark for studying expressive translation loss and evaluating unseen
+    onomatopoeia.
+  attributes:
+    archival: archival
+    keywords:
+    - Semantic Preservation
+    - benchmark dataset
+    - multilingual encoders
+    - Japanese Onomatopoeia
+    - Machine Translation
+    - Expressive Translation Loss
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 32
+  authors:
+  - emails: '****@dubai.bits-pilani.ac.in'
+    first_name: Aaron
+    institution: Birla Institute of Technology and Science Pilani, Dubai Campus
+    last_name: Massey
+    name: Aaron Massey
+    username: ~Aaron_Massey1
+  - emails: '****@dubai.bits-pilani.ac.in'
+    first_name: K
+    last_name: Tarakeshwar
+    name: K Tarakeshwar
+    username: ~K_Tarakeshwar1
+  - emails: '****@dubai.bits-pilani.ac.in'
+    first_name: Sujala
+    google_scholar_id: https://scholar.google.com/citations?user=XMy9rzEAAAAJ&hl=en
+    homepage: https://www.bits-pilani.ac.in/dubai/publications/?faculty=sujala-deepak-shetty
+    institution: Birla Institute of Technology and Science
+    last_name: Shetty
+    middle_name: D.
+    name: Sujala D. Shetty
+    orcid: https://orcid.org/0000-0003-3992-1109
+    username: ~Sujala_D._Shetty1
+  file: 32.pdf
+  id: 32
+  openreview_id: XaO5NIeNhS
+  title: 'Beyond Lexical Fidelity: Diagnosing Expressive Semantic Loss and Unseen-Form Generalization
+    in Japanese Onomatopoeia'
+  archival: true
+- abstract: "In the field of automotive component design, the V-model, a process management methodology,\
+    \ has been widely adopted by various automotive enterprises. At the initial stage of the model, when\
+    \ enterprises obtain customer requirement (CR) documents, system requirement (SR) documents need to\
+    \ be derived from them to facilitate subsequent development stages, making this a critical and foundational\
+    \ task throughout the V-model development process. With the rapid advancement of large language models\
+    \ (LLMs), automatically generating SR documents, rather than relying on non-standardized manual processes,\
+    \ has become a promising approach to improving efficiency. However, in real-world enterprise environments,\
+    \ several practical challenges remain: (1) CR documents are typically stored in heterogeneous formats,\
+    \ and (2) critical factors, including terminology consistency, factual accuracy, data privacy, and\
+    \ cost-efficiency trade-offs, must be properly addressed.\nTo comprehensively tackle these challenges,\
+    \ this paper presents a Lightweight LLM-based Multi-Agent framework for System Requirement Generation\
+    \ (LLMA4SRG). The proposed framework leverages off-the-shelf LLMs with a retrieval-augmented generation\
+    \ (RAG) mechanism and consists of two specialized agents: a Requirement Search Agent (RSA), which\
+    \ enables efficient retrieval through batch assessment and pre-index caching, and a System Requirement\
+    \ Generation Agent (SRGA), which generates customer-specific requirements based on predefined templates.\
+    \ \nWe construct a real-world dataset from proprietary automotive projects. Experimental results show\
+    \ that embedding-based retrieval improves BLEU-4 by over 150\\% compared to LLM function-call baselines,\
+    \ while the end-to-end slot filling success rate reaches 100\\% across all delivered drafts, demonstrating\
+    \ strong engineering feasibility for industrial deployment."
+  attributes:
+    archival: archival
+    keywords:
+    - Large Language Models
+    - Multi-Agent Systems
+    - Retrieval-Augmented Generation
+    - Requirement Generation
+    - Automotive Component Design
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 34
+  authors:
+  - emails: '****@stu.sbs.edu.cn'
+    first_name: Yanpeng
+    homepage: https://yanpengli2005.github.io/yanpengli.github.io/
+    institution: Shanghai Business School
+    last_name: Li
+    name: Yanpeng Li
+    username: ~Yanpeng_Li4
+  - emails: '****@qq.com'
+    first_name: Xinyu
+    institution: Shanghai Business School
+    last_name: Zhang
+    name: xinyu zhang
+    orcid: https://orcid.org/0009-0000-1050-9933
+    username: ~xinyu_zhang83
+  - dblp_id: https://dblp.org/pid/183/2883
+    emails: '****@gmail.com'
+    first_name: Zhuoxuan
+    google_scholar_id: https://scholar.google.com/citations?user=I8WBM-8AAAAJ&hl=en
+    institution: Shanghai Business School
+    last_name: Jiang
+    name: Zhuoxuan Jiang
+    orcid: https://orcid.org/0009-0009-9517-1091
+    username: ~Zhuoxuan_Jiang1
+  - emails: '****@kostal.com'
+    first_name: Chongming
+    homepage: https://github.com/AI-LCM
+    institution: KOSTAL
+    last_name: Lv
+    name: Chongming Lv
+    username: ~Chongming_lv1
+  - emails: '****@fudan.edu.cn'
+    first_name: Shaohua
+    homepage: https://www.sbs.edu.cn/xygk/xrld/index.htm
+    last_name: Zhang
+    name: Shaohua Zhang
+    orcid: https://orcid.org/0000-0001-9289-3827
+    username: ~Shaohua_Zhang2
+  file: 34.pdf
+  id: 34
+  openreview_id: kag4rr5ySk
+  title: 'LLMA4SRG: A Lightweight LLM-based Multi-Agent Framework for System Requirement Generation in
+    Automotive Component Design'
+  archival: true
+- abstract: 'LLM-based patient simulators for therapist training remain "too cooperative": they accept
+    therapist reframings too readily and lose the cognitive rigidity that defines real depressive presentations.
+    We ask whether theory-derived, attention-level interventions can restore this rigidity. We translate
+    the operational definitions of selective attention bias (Mathews & MacLeod, 2005) and rumination (Nolen-Hoeksema,
+    1991) into two hooks on transformer attention: a pre-softmax logit boost on negative-valence keys,
+    and a stateful attention-history accumulator that forms self-reinforcing attractors around negative
+    content. A three-metric behavioural framework (CNS, CRD, TPI), construct-validated on a Patient-$\Psi$-derived
+    corpus and cross-validated on real clinical interviews (DAIC-WOZ; AUC up to $0.84$, Spearman $\rho=0.58$
+    with PHQ-8), detects a pre-registered double dissociation across three model families and two alignment
+    regimes: the selective-attention hook drives counter-reframing (mean Cohen''s $d=1.74$) while leaving
+    topic persistence flat, and the rumination hook drives topic persistence (mean $d=1.92$) while leaving
+    counter-reframing flat. The effects are not reproduced by prompt- or output-level steering baselines,
+    including a behaviour-matched prompt that explicitly instructs both target behaviours; they localize
+    to a sparse subset of mid-to-late attention heads (causal on/off ratio $4.8\times$), and are corroborated
+    by blind ratings from licensed therapists ($p<0.05$ vs. Patient-$\Psi$ on all rated dimensions).'
+  attributes:
+    archival: archival
+    keywords:
+    - patient simulation
+    - mental health NLP
+    - mechanistic interpretability
+    - attention intervention
+    - cognitive bias
+    - depression
+    - LLM evaluation
+    - activation steering
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 35
+  authors:
+  - emails: '****@gapp.nthu.edu.tw'
+    first_name: Yu-Yi
+    homepage: https://yuyi2026.curiouscreate.com/
+    institution: National Tsinghua University
+    last_name: Chang
+    name: Yu-Yi Chang
+    orcid: https://orcid.org/0009-0003-1497-2249
+    username: ~Yu-Yi_Chang1
+  - emails: '****@gmail.com'
+    first_name: Hao-Che
+    homepage: https://www.linkedin.com/in/hector-a4a80b3aa
+    institution: National Tsinghua University
+    last_name: Chiu
+    name: Hao-Che Chiu
+    orcid: https://orcid.org/0009-0005-3704-5936
+    username: ~Hao-Che_Chiu1
+  file: 35.pdf
+  id: 35
+  openreview_id: IqKFxORUMe
+  title: 'Inducing Dissociable Attention Biases in Open LLMs: A Mechanism-Theoretic Framework for Depressive
+    Patient Simulation'
+  archival: true
+- abstract: 'As AI systems increasingly mediate communication across languages and
+
+    cultures, preserving literal meaning is not sufficient for preserving
+
+    communicative intent. Expressions involving humor, sarcasm, social
+
+    register, and cultural conventions can retain their propositional
+
+    content while losing the meaning that makes them appropriate in context.
+
+    We investigate this challenge through cross-lingual caption localization,
+
+    using it as a testbed for culturally aware language generation. We
+
+    introduce CapLocBench, a benchmark of English captions
+
+    localized into five languages, together with bilingual-validated
+
+    contrast pairs designed to isolate pragmatic and cultural meaning loss.
+
+    We evaluate communicative fidelity and target-language localization
+
+    quality separately, revealing limitations of conventional automatic
+
+    translation metrics: the strongest of four evaluated metrics achieves
+
+    only $58.4\%$ tie-adjusted accuracy in distinguishing localized captions
+
+    from pragmatically flattened alternatives. To address this gap, we
+
+    introduce CapLoc, a context-conditioned multilingual model
+
+    trained with pairwise preferences that distinguish faithful localization
+
+    from both literal flattening and unsupported cultural adaptation.
+
+    CapLoc improves the combined human evaluation score from
+
+    0.75 to 0.83 relative to the strongest evaluated baseline, with the
+
+    largest gain in localization quality. Our findings highlight the
+
+    importance of preserving communicative function alongside semantic
+
+    content and identify pragmatic localization as a concrete challenge for
+
+    culturally aware human--AI interaction.'
+  attributes:
+    archival: archival
+    keywords:
+    - Cross-lingual translation
+    - pragmatic and cultural meaning loss
+    - caption localization
+    - discourse-conditioned generation
+    - preference-based fine-tuning
+    - MT evaluation
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 36
+  authors:
+  - emails: '****@gsb.columbia.edu'
+    first_name: Vasu
+    institution: Cu
+    last_name: Jindal
+    name: Vasu Jindal
+    username: ~Vasu_Jindal2
+  - emails: '****@columbia.edu'
+    first_name: Huijin
+    homepage: http://columbia.edu
+    institution: Columbia University
+    last_name: Ju
+    name: Huijin Ju
+    username: ~Huijin_Ju1
+  - emails: '****@caa.columbia.edu'
+    first_name: Zili
+    homepage: http://columbia.edu
+    institution: Columbia University
+    last_name: Lv
+    name: Zili Lv
+    username: ~Zili_Lv1
+  file: 36.pdf
+  id: 36
+  openreview_id: 1v5EZXoid0
+  title: 'Seeing the Same World, Understanding Different Meanings: Toward Culturally Aware Human–AI Interaction'
+  archival: true
+- abstract: 'Recent progress in large language models (LLMs) has improved code generation, but their ability
+    to coordinate computation across multiple devices remains poorly characterized. As model and workload
+    sizes grow, multi-device execution is increasingly common, making multi-device coordination a practical
+    and high-impact capability to evaluate. Multi-GPU generation is challenging because it imposes cross-device
+    semantic constraints, such as correct work assignment, execution ordering, and data movement, that
+    generated code can easily violate. However, most code-generation evaluations focus on single-device
+    settings and therefore fail to capture coordination failures specific to multi-device execution. Moreover,
+    scalability metrics are rarely integrated with functional correctness in LLM code-generation evaluation,
+    making it difficult to identify coordination failures such as incorrect partitioning, missing synchronization,
+    and pseudo-parallel multi-GPU execution.
+
+
+    To address this gap, we introduce two complementary correctness evaluation datasets: a synthesized
+    dataset of 23 tasks spanning five domains and a PolyBench/C-derived dataset of 30 tasks. We additionally
+    evaluate scalability on two representative workloads. We further provide a diagnostic taxonomy of
+    coordination errors and a semi-automatic classification procedure with human verification for pseudo-parallel
+    execution, turning a common qualitative failure into a reproducible diagnostic signal. To study these
+    failures, we use structured prompts as a probing setup and perform component ablations to analyze
+    which coordination constraints most affect model behavior. On our synthesized dataset, structured
+    prompting improves correctness across all three models in the main evaluation, including an increase
+    from 20/23 to 22/23 correct tasks for ChatGPT-5. Finally, we propose a scalability-aware metric that
+    captures both correctness and scaling behavior, revealing that even models achieving high task-level
+    correctness may fail to scale efficiently as GPU count increases.'
+  attributes:
+    archival: archival
+    keywords:
+    - code generation
+    - LLM evaluation
+    - multi-GPU
+    - CUDA
+    - structured prompting
+    - scalability
+    - multi-device reasoning
+    - HPC
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 37
+  authors:
+  - emails: '****@gapp.nthu.edu.tw'
+    first_name: Wei-Chih
+    institution: National Yang Ming Chiao Tung University
+    last_name: Huang
+    name: Wei-Chih Huang
+    username: ~Wei-Chih_Huang1
+  - emails: '****@lsalab.cs.nthu.edu.tw'
+    first_name: Jerry
+    homepage: https://lsalab.cs.nthu.edu.tw/home/?page=Advisor/index
+    institution: Department of Computer Science, National Tsing Hua University, National Tsinghua University
+    last_name: Chou
+    name: Jerry Chou
+    username: ~Jerry_Chou1
+  file: 37.pdf
+  id: 37
+  openreview_id: 4GoiGPHZIC
+  title: Evaluation of Reasoning LLMs on Multi-GPU Code Generation
+  archival: true
+- abstract: 'Miss a filing deadline by one day and the claim is barred, however strong the case. Computing
+    that deadline is rarely simple: the period runs from a triggering event, is counted by a statutory
+    convention, and may be suspended by a mandatory conciliation window. We ask whether a language model
+    should answer such questions directly, or read the document and leave the arithmetic to code. We extract
+    dated facts and their dependencies into a temporal dependency graph and compute deadlines from it
+    with a calendar-correct engine. On UK Employment Appeal Tribunal judgments the engine reproduces six
+    of seven timeliness rulings, and matches the judges'' own dates to the day. The strongest of four
+    language models, asked the same cases, gets the arithmetic right and the answer wrong: in two of its
+    seven responses its stated verdict contradicts its own working, and across the three GPT models six
+    of twenty-one responses do, each time calling a late claim timely. To test the systems at scale we
+    move the dismissal date across the statutory boundary, generating 427 cases whose answers are computed
+    rather than annotated. On the cases both systems answer, the pipeline is right 90.2\% of the time
+    against 61.2\% for direct answering. It answers two thirds of the cases, and counting its abstentions
+    as errors it does not exceed direct answering (60.4\% against 64.6\%). The limit is extraction: on
+    contracts the errors are almost never in the arithmetic, but in choosing which
+
+    event the period starts from.'
+  attributes:
+    archival: archival
+    keywords:
+    - legal NLP
+    - temporal reasoning
+    - temporal information extraction
+    - neuro-symbolic methods
+    - faithfulness
+    - self-consistency
+    - evaluation methodology
+    - LLM evaluation
+    - structured prediction
+    - abstention and calibration
+    - counterfactual evaluation
+    - low-resource evaluation
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 39
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Maryia
+    google_scholar_id: https://scholar.google.com/citations?user=2PPrg20AAAAJ&hl=en
+    institution: Leiden University
+    last_name: Zhyrko
+    name: Maryia Zhyrko
+    username: ~Maryia_Zhyrko1
+  - dblp_id: https://dblp.org/pid/86/5095
+    emails: '****@liacs.leidenuniv.nl'
+    first_name: Suzan
+    google_scholar_id: https://scholar.google.nl/citations?user=-IHDKA0AAAAJ&hl=en
+    homepage: https://liacs.leidenuniv.nl/~verbernes/
+    institution: Universiteit Leiden
+    last_name: Verberne
+    name: Suzan Verberne
+    orcid: https://orcid.org/0000-0002-9609-9505
+    username: ~Suzan_Verberne1
+  - dblp_id: https://dblp.org/pid/03/10304
+    emails: '****@gmail.com'
+    first_name: Lifeng
+    google_scholar_id: https://scholar.google.com/citations?user=_vf3E2QAAAAJ&hl=en
+    homepage: https://research.manchester.ac.uk/en/persons/lifeng.han
+    institution: Leiden University, Leiden University
+    last_name: Han
+    name: Lifeng Han
+    orcid: https://orcid.org/0000-0002-3221-2185
+    semantic_scholar_id: https://www.semanticscholar.org/author/Lifeng-Han/15173692
+    username: ~Lifeng_Han1
+  file: 39.pdf
+  id: 39
+  openreview_id: mM0uPpvgkk
+  title: 'Time as Structure: A Temporal Backbone for Extraction and Reasoning over Legal Documents'
+  archival: true
+- abstract: "In Japanese-to-English manga translation, the textual information within panels and speech\
+    \ bubbles alone is often insufficient to provide the necessary context for accurate translation. \n\
+    This study proposes a manga translation method that utilizes scene description contained in manga\
+    \ images as context to improve translation accuracy.\nExperimental evaluations in a Japanese-to-English\
+    \ manga translation task confirmed that the proposed method improves translation accuracy compared\
+    \ to conventional methods."
+  attributes:
+    archival: archival
+    keywords:
+    - Machine translation
+    - Multimodal
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 40
+  authors:
+  - emails: '****@ai.cs.ehime-u.ac.jp'
+    first_name: Taichi
+    homepage: https://github.com/yoko-taichi
+    institution: Ehime University
+    last_name: Yokoyama
+    name: Taichi Yokoyama
+    username: ~Taichi_Yokoyama1
+  - dblp_id: https://dblp.org/pid/375/8625.html
+    emails: '****@gmail.com'
+    first_name: Kaino
+    homepage: https://github.com/kaino-hiroto
+    institution: Ehime University
+    last_name: Hiroto
+    name: Kaino Hiroto
+    semantic_scholar_id: https://www.semanticscholar.org/author/Hiroto-Kaino/2301579839
+    username: ~Kaino_Hiroto1
+  - emails: '****@ai.cs.ehime-u.ac.jp'
+    first_name: Reon
+    homepage: https://sites.google.com/view/ehime-nlp/
+    institution: Cierpa & Co., Inc.
+    last_name: Kajikawa
+    name: Reon Kajikawa
+    orcid: https://orcid.org/0009-0009-2373-9186
+    username: ~Reon_Kajikawa1
+  - dblp_id: https://dblp.org/pid/67/2953
+    emails: '****@ehime-u.ac.jp'
+    first_name: Takashi
+    google_scholar_id: https://scholar.google.com/citations?user=g1qf95wAAAAJ&hl=ja
+    homepage: https://sites.google.com/view/ninomi
+    institution: Ehime University
+    last_name: Ninomiya
+    name: Takashi Ninomiya
+    orcid: https://orcid.org/0000-0002-6411-9962
+    semantic_scholar_id: https://www.semanticscholar.org/author/Takashi-Ninomiya/2067242699
+    username: ~Takashi_Ninomiya1
+  - dblp_id: https://dblp.org/pid/91/80
+    emails: '****@ehime-u.ac.jp'
+    first_name: Isao
+    institution: Ehime University
+    last_name: Goto
+    name: Isao Goto
+    orcid: https://orcid.org/0009-0000-9757-7778
+    semantic_scholar_id: https://www.semanticscholar.org/author/Isao-Goto/2205832
+    username: ~Isao_Goto1
+  - dblp_id: https://dblp.org/pid/166/1969
+    emails: '****@mantra.co.jp'
+    first_name: Shonosuke
+    institution: Mantra Inc.
+    last_name: Ishiwatari
+    name: Shonosuke Ishiwatari
+    username: ~Shonosuke_Ishiwatari1
+  - dblp_id: https://dblp.org/pid/136/9156
+    emails: '****@gmail.com'
+    first_name: Hiroshi
+    institution: Mantra Inc.
+    last_name: Noji
+    name: Hiroshi Noji
+    semantic_scholar_id: https://www.semanticscholar.org/author/Hiroshi-Noji/3253887
+    username: ~Hiroshi_Noji2
+  file: 40.pdf
+  id: 40
+  openreview_id: pIQzCo5Dd0
+  title: Manga Translation via Scene Descriptions Generated by Multimodal Large Language Models
+  archival: true
+- abstract: Instruction-based fine-tuning for aspect sentiment quadruple prediction (ASQP) offers a flexible,
+    end-to-end framework for fine-grained sentiment analysis but the effective use of adversarial training
+    in this task remains underexplored. This study investigates how the perturbation scope, perturbation
+    strength, and the optimization steps affect instruction-based ASQP with T5-base and BART-base models.
+    We compare global, aspect-only, opinion-only, and aspect-opinion perturbations while exploring the
+    effects of perturbation radius, adversarial loss weight, and one-step versus multiple-step attack.
+    The experimental results indicate that aspect-only perturbation provides the strongest validation-selected
+    configuration for both backbones, while one-step FGM consistently outperforms the multiple-step PGD
+    attack under the optimal configuration. On the test set, the optimal adversarial training configurations
+    improve item micro-F1 from 0.8176 to 0.8313 for T5-base and from 0.6643 to 0.6811 for BART-base, with
+    the gains primarily driven by higher recall. These findings show that an effective adversarial perturbation
+    attack for instruction-based ASQP depends on both the perturbation scope and the perturbation strength,
+    and that stronger iterative optimization steps do not yield better performance.
+  attributes:
+    archival: archival
+    keywords:
+    - Aspect sentiment quadruple prediction
+    - aspect-based sentiment analysis
+    - adversarial training
+    - perturbation scope
+    - instruction-based learning
+    - text-to-text generation
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 41
+  authors:
+  - emails: '****@student.usm.my'
+    first_name: Liu
+    institution: Universiti Sains Malaysia
+    last_name: Minkang
+    name: Liu Minkang
+    username: ~Liu_Minkang1
+  - emails: '****@usm.my'
+    first_name: Jasy Suet Yan
+    google_scholar_id: https://scholar.google.com/citations?user=i930eoYAAAAJ&hl=en
+    homepage: https://cs.usm.my/index.php/faculty-member/181-jasy-liew-suet-yan-dr
+    institution: Universiti Sains Malaysia
+    last_name: Liew
+    name: JASY SUET YAN LIEW
+    orcid: https://orcid.org/0000-0001-7362-7507
+    username: ~JASY_SUET_YAN_LIEW2
+  file: 41.pdf
+  id: 41
+  openreview_id: 2dCrYWbgAL
+  title: Scope-aware Adversarial Training for Aspect Sentiment Quadruple Prediction
+  archival: true
+- abstract: Next utterance class prediction provides an explicit policy decision before response generation
+    in a dialogue agent. This capability supports a client agent for novice counselor training and a future
+    counselor agent for intake interview support. A preceding experiment showed that acoustic information
+    improved aggregate prediction accuracy, but the source of that improvement remained unclear. This
+    study analyzes paired predictions without audio and with audio for eight counselor patterns and seven
+    independently selected client patterns across seven acoustic features. The analysis workbook contains
+    the complete pooled evaluation data from cross-validation, comprising 10,371 counselor target instances
+    and 10,377 client target instances. The selected patterns preserve the aggregate accuracy trend, with
+    gains of 22.94 percentage points for counselor prediction and 13.69 percentage points for client prediction.
+    Counselor accuracy with audio varies strongly across duration and final-syllable F0 slope, while client
+    accuracy is nearly uniform across the seven features. Accuracy stratification identifies the acoustic
+    ranges in which the improvement is concentrated. These findings clarify how acoustic information can
+    support class controlled counseling agents and define the analyses required for confirmation on original
+    session data.
+  attributes:
+    archival: archival
+    keywords:
+    - LLMs
+    - acoustic information
+    - next utterance class prediction
+    - intake interview
+    - dialogue
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 45
+  authors:
+  - emails: '****@u.tsukuba.ac.jp'
+    first_name: Tatsu
+    homepage: https://www.tsukuba.ac.jp/
+    institution: University of Tsukuba
+    last_name: Kitamura
+    name: Tatsu Kitamura
+    username: ~Tatsu_Kitamura1
+  - dblp_id: https://dblp.org/pid/52/4891
+    emails: '****@iit.tsukuba.ac.jp'
+    first_name: Takehito
+    google_scholar_id: https://scholar.google.co.jp/scholar?q=%22takehito+utsuro%22&hl=ja&as_sdt=0,5
+    homepage: http://nlp.iit.tsukuba.ac.jp/member/utsuro/home-e.html
+    institution: University of Tsukuba
+    last_name: Utsuro
+    name: Takehito Utsuro
+    orcid: https://orcid.org/0000-0003-4072-1833
+    semantic_scholar_id: https://www.semanticscholar.org/search?q=takehito%20utsuro&sort=pub-date
+    username: ~Takehito_Utsuro1
+  file: 45.pdf
+  id: 45
+  openreview_id: LitFcR3uSb
+  title: Analyzing Effects of Acoustic Information in LLMs based Next Utterance Class Prediction of an
+    Intake Interview
+  archival: true
+- abstract: 'Negotiation agents must choose actions that advance agreement and realize them as appropriate
+    utterances.  Dialogue-act-based systems separate strategy from surface realization, whereas large
+    language models (LLMs) enable flexible generation.  We present DAMF, which integrates an LLM into
+    a parser--manager--generator framework: the manager selects a response dialogue act, a rule-based
+    selector supplies a price when needed, and the LLM realizes the act in context.  We compare DAMF with
+    three baselines in a randomized, blinded within-participant study (11 participants; four agents $\times$
+    two roles) and a complete $4\times4$ agent--agent evaluation over 100 shared scenarios per ordered
+    pairing.  With human partners, DAMF attained the highest pooled agreement rate and mean utility and
+    led four of five dialogue-quality means.  Confirmed differences were higher buyer-role ratings than
+    All for non-robotic phrasing and strategic communication ($p=.012$ each); no role-specific quantitative
+    difference was significant.  In automated negotiation, DAMF exceeded Simple and All in agreement and
+    utility in both roles and achieved higher seller utility than Search.  Together, the evaluations demonstrate
+    DAMF''s viability as an inspectable modular design for LLM-based negotiation.'
+  attributes:
+    archival: archival
+    keywords:
+    - Negotiation dialogue systems; dialogue-act control; large language models; modular architectures;
+      controllable text generation; human evaluation; agent-to-agent negotiation
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: direct
+    openreview_number: 46
+  authors:
+  - emails: '****@katfuji.lab.tuat.ac.jp'
+    first_name: Ken
+    institution: Tokyo University of Agriculture and Technology
+    last_name: Watanabe
+    name: Ken Watanabe
+    username: ~Ken_Watanabe1
+  - dblp_id: https://dblp.org/pid/402/0393.html
+    emails: '****@katfuji-lab.sakura.ne.jp'
+    first_name: Kenjiro
+    institution: Tokyo University of Agriculture and Technology
+    last_name: Morimoto
+    name: Kenjiro Morimoto
+    username: ~Kenjiro_Morimoto1
+  - dblp_id: https://dblp.org/pid/75/6391
+    emails: '****@cc.tuat.ac.jp'
+    first_name: Katsuhide
+    google_scholar_id: https://scholar.google.co.jp/citations?user=OPfxSEYAAAAJ&hl=ja
+    homepage: https://web.tuat.ac.jp/~katfuji/english/index.html
+    institution: Tokyo University of Agriculture and Technology
+    last_name: Fujita
+    name: Katsuhide Fujita
+    orcid: https://orcid.org/0000-0001-7867-4281
+    username: ~Katsuhide_Fujita1
+  file: 46.pdf
+  id: 46
+  openreview_id: veMCBZpnHQ
+  title: 'Dialogue-Act-Based Control for LLM Negotiation: An Empirical Study in a Modular Framework'
+  archival: true
+- abstract: "Metaphorical language remains a major challenge for multilingual natural language processing\
+    \ because successful interpretation and translation require reasoning beyond literal lexical meaning.\
+    \ Existing research has largely investigated metaphor detection, machine translation, and translation\
+    \ evaluation as separate tasks, while little work has explored how these components can be integrated\
+    \ into a unified computational framework. This PhD proposal aims to develop an end-to-end framework\
+    \ for multilingual metaphor processing consisting of three complementary research directions: (1)\
+    \ robust metaphor detection across languages, (2) metaphor-oriented translation evaluation for both\
+    \ human assessment and automatic quality estimation, and (3) joint modelling that connects metaphor\
+    \ detection with translation evaluation. The proposed research will combine linguistic theory with\
+    \ recent advances in large language models to develop new datasets, annotation methodologies, evaluation\
+    \ benchmarks, and automatic evaluation approaches for metaphor-aware machine translation. The expected\
+    \ outcome is a unified framework that improves both the development and evaluation of multilingual\
+    \ NLP systems when processing figurative language. Resources will be shared publicly at \n\\url{https://github.com/Jiahui84/Metaphor_end2end}"
+  attributes:
+    archival: archival
+    keywords:
+    - Metaphor Processing; Metaphor Detection; Machine Translation; Translation Evaluation; Large Language
+      Models; Quality Estimation; Multilingual NLP; Figurative Language
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: thesis_proposal
+    source_venue: direct
+    openreview_number: 47
+  authors:
+  - emails: '****@outlook.com'
+    first_name: Jiahui
+    homepage: https://www.universiteitleiden.nl/en/staffmembers/jiahui-liang#tab-1
+    institution: Leiden University
+    last_name: Liang
+    name: Jiahui Liang
+    username: ~Jiahui_Liang4
+  - dblp_id: https://dblp.org/pid/03/10304
+    emails: '****@gmail.com'
+    first_name: Lifeng
+    google_scholar_id: https://scholar.google.com/citations?user=_vf3E2QAAAAJ&hl=en
+    homepage: https://research.manchester.ac.uk/en/persons/lifeng.han
+    institution: Leiden University, Leiden University
+    last_name: Han
+    name: Lifeng Han
+    orcid: https://orcid.org/0000-0002-3221-2185
+    semantic_scholar_id: https://www.semanticscholar.org/author/Lifeng-Han/15173692
+    username: ~Lifeng_Han1
+  file: 47.pdf
+  id: 47
+  openreview_id: CacZoqTnBe
+  title: 'Thesis Proposal: Towards End-to-End Metaphor Processing for Multilingual NLP'
+  archival: true
+- abstract: Automatic Speech Recognition (ASR) for Indian languages has recently evolved from specialized
+    encoder-decoder and Connectionist Temporal Classification (CTC)-based architectures toward large audio-language
+    models (LALMs). However, the robustness and comparative effectiveness of these model families for
+    multilingual Indian language ASR remain underexplored. In this paper, we present a systematic evaluation
+    of eight ASR models across Assamese, Bengali, Hindi, and Odia using the speaker-disjoint IndicVoices
+    dataset. Our benchmark includes four traditional transformer-based ASR architectures and four LALMs.
+    Among all evaluated systems, IndicConformer-600M evaluated without fine-tuning achieves the strongest
+    overall performance, attaining the lowest per-language word error rate (WER) and character error rate
+    (CER) on all four languages. We report it as an in-domain reference and not as a matched baseline.
+    Among the fine-tuned LALMs, Phi-4-Multimodal-Instruct performs best, attaining the lowest per-language
+    WER and CER on three of the four languages (Assamese, Bengali, and Odia), and surpassing the strongest
+    fine-tuned traditional baseline, MMS-1B-All, on WER in all four languages. Qwen2-Audio-7B-Instruct
+    and Voxtral-Mini-3B-2507 achieve competitive WERs, while Qwen3-ASR-1.7B shows comparatively weaker
+    final performance. Our findings indicate that fine-tuned LALMs are competitive with traditional ASR
+    models in this low-resource setting, although specialized Indian-language ASR checkpoints may continue
+    to maintain a substantial performance advantage.
+  attributes:
+    archival: archival
+    keywords:
+    - Automatic Speech Recognition
+    - Large Audio Language Models
+    paper_type: short
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: arr
+    openreview_number: 1
+  authors:
+  - emails: '****@iitbbs.ac.in'
+    first_name: Manmohan
+    google_scholar_id: https://scholar.google.com/citations?user=Z-dIdb0AAAAJ&hl=en
+    institution: IIT Bhubaneswar
+    last_name: Mahapatra
+    name: Manmohan Mahapatra
+    username: ~Manmohan_Mahapatra1
+  - dblp_id: https://dblp.org/pid/200/8353
+    emails: '****@gmail.com'
+    first_name: Abhik
+    google_scholar_id: https://scholar.google.co.in/citations?user=D0DaFlEAAAAJ&hl=en
+    homepage: https://www.iitbbs.ac.in/profile.php/abhik/
+    institution: IIT Bhubaneswar
+    last_name: Jana
+    name: Abhik Jana
+    orcid: https://orcid.org/0000-0002-4485-0002
+    semantic_scholar_id: https://www.semanticscholar.org/author/Abhik-Jana/16228163
+    username: ~Abhik_Jana2
+  file: 101.pdf
+  id: 101
+  openreview_id: vmlKStuY17
+  title: 'Towards Robust ASR for Indian Languages: Evaluating Traditional Speech Recognition Architectures
+    and Large Audio-Language Models'
+  archival: true
+- abstract: Social media has become a major venue for multilingual communication, where users frequently
+    mix multiple languages within a single utterance. Although code-mixed corpora have been developed
+    for several language pairs, Persian-English code-mixing remains relatively underexplored. Existing
+    Persian resources lack Universal Dependencies (UD) part-of-speech (POS) annotations for code-mixed
+    words, limiting both linguistic analyses and the development of syntax-aware NLP models. To address
+    this gap, we introduce PERCEPT, the first publicly available large-scale Persian-English code-mixed
+    corpus annotated with Universal Dependencies POS tags for code-mixed words. The dataset comprises
+    6,800 posts collected from Twitter (X), Instagram, and Digikala, each containing at least one identified
+    Persian-English code-mixed word. We further present an LLM-assisted annotation framework that automatically
+    assigns POS tags and document-level topics. Human evaluation demonstrates high agreement between the
+    automatically generated annotations and gold annotations, confirming the reliability of the annotations.
+    Using PERCEPT, we conduct the first comprehensive linguistic analysis of Persian-English code-mixing
+    across multiple social media platforms. Our analyses reveal that nouns are the predominant category
+    for code-mixed words, while the distributions of other POS categories vary across platforms. We further
+    find that the positional distribution of code-mixed words is remarkably consistent across platforms,
+    whereas the triggering effect is substantially more pronounced in Digikala. PERCEPT is publicly available
+    at https://github.com/kalhorghazal/PERCEPT.
+  attributes:
+    archival: archival
+    keywords:
+    - Code-Mixing
+    - Persian-English
+    - Social Media
+    - Corpus Annotation
+    - Universal Dependencies
+    - Part-of-Speech Tagging
+    - Multilingual NLP
+    - Linguistic Analysis
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: arr
+    openreview_number: 2
+  authors:
+  - dblp_id: https://dblp.org/pid/318/8551
+    emails: '****@gmail.com'
+    first_name: Ghazal
+    google_scholar_id: https://scholar.google.com/citations?user=hhMHtcUAAAAJ&hl=en
+    institution: EPFL
+    last_name: Kalhor
+    name: Ghazal Kalhor
+    orcid: https://orcid.org/0000-0002-6153-9048
+    semantic_scholar_id: https://www.semanticscholar.org/author/Ghazal-Kalhor/2161768554
+    username: ~Ghazal_Kalhor3
+  - emails: '****@ut.ac.ir'
+    first_name: Zahra
+    institution: University of Tehran, University of Tehran
+    last_name: Jafari
+    name: Zahra Jafari
+    username: ~Zahra_Jafari2
+  - emails: '****@ut.ac.ir'
+    first_name: Amirarsalan
+    institution: University of Tehran, University of Tehran
+    last_name: Shahbazi
+    name: Amirarsalan Shahbazi
+    orcid: https://orcid.org/0009-0004-8395-6020
+    username: ~Amirarsalan_Shahbazi1
+  - dblp_id: https://dblp.org/pid/52/3356
+    emails: '****@teias.institute'
+    first_name: Behnam
+    google_scholar_id: https://scholar.google.com/citations?user=1IdcoLMAAAAJ&hl=en
+    institution: Tehran Institute for Advanced Studies
+    last_name: Bahrak
+    name: Behnam Bahrak
+    orcid: https://orcid.org/0000-0003-4429-2511
+    semantic_scholar_id: https://www.semanticscholar.org/author/B.-Bahrak/2860215
+    username: ~Behnam_Bahrak2
+  file: 102.pdf
+  id: 102
+  openreview_id: 7YbGOnOmuQ
+  title: 'PERCEPT: A Corpus for POS Tagging and Analysis of Persian-English Code-Mixing'
+  archival: true
+- abstract: 'Emergent misalignment (EM) is a phenomenon where language models broadly generalize undesirable
+    behavior after finetuning on a narrow set of harmful examples such as insecure code. This exposes
+    gaps in our understanding of generalization and raises practical safety concerns. We study this phenomenon
+    through the lens of uncertainty quantification. Although EM models show markedly higher uncertainty
+    than the base checkpoint, control models finetuned on benign data show similarly elevated uncertainty,
+    suggesting that uncertainty magnitude reflects domain shift rather than alignment properties. Instead,
+    we find that EM models exhibit a characteristic dynamic signature: increased lag-1 autocorrelation
+    of token-wise entropies. We interpret this as evidence of high-level uncertainty over aligned versus
+    misaligned behavior, as opposed to low-level variation such as choosing among semantically equivalent
+    phrasings.'
+  attributes:
+    archival: archival
+    keywords:
+    - misalignment
+    - llm
+    - safety
+    - uncertainty
+    - emergent misalignment
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: arr
+    openreview_number: 3
+  authors:
+  - emails: '****@bk.ru'
+    first_name: Aleksei
+    homepage: https://github.com/AlBeBack-ds
+    institution: Higher School of Economics, Higher School of Economics
+    last_name: Beglov
+    name: Aleksei Beglov
+    username: ~Aleksei_Beglov1
+  - emails: '****@gmail.com'
+    first_name: Daniil
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=FXxqu-cAAAAJ
+    homepage: https://github.com/rtriangle
+    institution: Amazon
+    last_name: Korbut
+    name: Daniil Korbut
+    semantic_scholar_id: https://www.semanticscholar.org/author/Daniil-Korbut/2428251366
+    username: ~Daniil_Korbut1
+  - dblp_id: https://dblp.org/pid/60/9162
+    emails: '****@gmail.com'
+    first_name: Alexander
+    homepage: https://scholar.google.com/citations?user=BYba9hcAAAAJ&hl=en&oi=ao
+    institution: S-NLP Group
+    last_name: Panchenko
+    name: Alexander Panchenko
+    orcid: https://orcid.org/0000-0001-6097-6118
+    username: ~Alexander_Panchenko1
+  - dblp_id: https://dblp.org/pid/153/5554
+    emails: '****@gmail.com'
+    first_name: Elena
+    google_scholar_id: https://scholar.google.ru/citations?user=npM9yekAAAAJ
+    institution: Kazan Federal University
+    last_name: Tutubalina
+    name: Elena Tutubalina
+    orcid: https://orcid.org/0000-0001-7936-0284
+    semantic_scholar_id: https://www.semanticscholar.org/author/E.-Tutubalina/2617496
+    username: ~Elena_Tutubalina1
+  - dblp_id: https://dblp.org/pid/371/7839
+    emails: '****@gmail.com'
+    first_name: Mikhail
+    google_scholar_id: https://scholar.google.com/citations?user=zHaNRJIAAAAJ&hl=en
+    institution: AXXX and S-NLP Group
+    last_name: Seleznyov
+    name: Mikhail Seleznyov
+    orcid: https://orcid.org/0009-0002-8643-0185
+    semantic_scholar_id: https://www.semanticscholar.org/author/Mikhail-Seleznyov/2293940298
+    username: ~Mikhail_Seleznyov1
+  file: 103.pdf
+  id: 103
+  openreview_id: vH3PqgpbRO
+  title: What Does Uncertainty Lens Tell Us About Emergent Misalignment?
+  archival: true
+- abstract: Large language models are typically trained under uniform token weighting, which allows frequent
+    and low-information tokens to dominate learning and can increase the tendency to memorize surface-level
+    text spans. To address this, we present an information-weighted cross-entropy loss that rescales token-level
+    contributions using TF-IDF statistics, emphasizing semantically informative tokens while downweighting
+    ubiquitous ones. Experiments on five decoder-only LLMs ranging from 1.1B to 13B parameters show consistent
+    reductions in memorized substring length while preserving perplexity and downstream task performance.
+    Under LoRA fine-tuning, TF-IDF reduces average substring memorization length by 14% across all five
+    models. Under full-weight fine-tuning on TinyLLaMA 1.1B, the reduction reaches 58%. Our approach is
+    architecture-agnostic and can be incorporated into existing training pipelines with less than 3% computational
+    overhead, offering a lightweight and principled way to mitigate memorization without disrupting standard
+    training dynamics.
+  attributes:
+    archival: archival
+    keywords:
+    - Large Language Models
+    - Verbatim Memorization
+    - Memorization Mitigation
+    - Training Objectives
+    - TF-IDF
+    - Loss Reweighting
+    paper_type: long
+    presentation_type: N/A
+    submitted_area: ''
+    submission_track: research_paper
+    source_venue: arr
+    openreview_number: 4
+  authors:
+  - emails: '****@gmail.com'
+    first_name: Zhijian
+    google_scholar_id: https://scholar.google.com/citations?user=mwOXKrUAAAAJ&hl=en
+    institution: University of Southern California
+    last_name: Li
+    name: Zhijian Li
+    username: ~Zhijian_Li5
+  - dblp_id: https://dblp.org/pid/239/4267
+    emails: '****@gmail.com'
+    first_name: Stefan
+    google_scholar_id: https://scholar.google.com/citations?user=NWauVzoAAAAJ&hl=en
+    homepage: https://gxlarson.github.io/
+    institution: Vanderbilt University
+    last_name: Larson
+    name: Stefan Larson
+    orcid: https://orcid.org/0000-0003-4907-7888
+    semantic_scholar_id: https://www.semanticscholar.org/author/Stefan-Larson/92963185
+    username: ~Stefan_Larson1
+  - dblp_id: https://dblp.org/pid/133/3698.html
+    emails: '****@vanderbilt.edu'
+    first_name: Kevin
+    google_scholar_id: https://scholar.google.com/citations?hl=en&user=7nSw4Q8AAAAJ
+    homepage: https://kjl.name
+    institution: Vanderbilt University
+    last_name: Leach
+    name: Kevin Leach
+    orcid: https://orcid.org/0000-0002-4001-3442
+    username: ~Kevin_Leach1
+  file: 104.pdf
+  id: 104
+  openreview_id: W7wLtfRlye
+  title: Rebalancing Token Importance in Language Models with TF-IDF Weighted Cross-Entropy Loss
+  archival: true
